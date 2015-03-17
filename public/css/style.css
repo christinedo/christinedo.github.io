@@ -1,0 +1,119 @@
+#portfolio-content {
+  margin-left: auto;
+  margin-right: auto; }
+
+nav {
+  text-transform: uppercase;
+  font-size: 1.125em;
+  font-weight: 400;
+  padding-top: 1em; }
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+  nav li {
+    display: inline-block;
+    padding: 0 30px; }
+  nav a {
+    color: #4DD0E1;
+    display: block;
+    text-decoration: none;
+    border-bottom: 3px solid #fff; }
+  nav a:hover {
+    color: #fff;
+    border-bottom: 3px solid transparent; }
+
+footer {
+  clear: both;
+  position: relative;
+  bottom: 0;
+  margin-bottom: 0;
+  width: 100%;
+  height: 200px;
+  background-color: #2A2C39; }
+
+#footer-text {
+  color: #EF5350;
+  text-align: center;
+  font-weight: 600;
+  font-size: 0.875em;
+  padding-top: 60px; }
+
+figure {
+  display: inline-block;
+  margin: 0 0.5em 0 0; }
+  figure img {
+    width: 300px;
+    height: auto; }
+
+body {
+  font-family: "Source Sans Pro", helvetica, sans-serif;
+  font-size: 100%;
+  background-color: #fffffc;
+  color: #3d3d3d;
+  margin: 0;
+  padding: 0; }
+
+.main-container {
+  width: 100%;
+  text-align: center; }
+
+.content {
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  text-align: left; }
+
+h1 {
+  font-weight: 300;
+  font-size: 3em;
+  text-transform: lowercase;
+  margin: 0 0 0.2em 0;
+  color: #fff; }
+
+h2 {
+  font-weight: 400;
+  font-size: 2em;
+  color: #36CDA4;
+  text-transform: lowercase; }
+
+p {
+  font-weight: 400;
+  font-size: 1em; }
+
+/*hr {
+    display: block;
+    height: 1px;
+    width: 50%;
+    border: 0;
+    border-top: 2px solid $main-color;
+   // margin: 0 0 0 0.5em;
+    padding: 0;
+}*/
+.banner {
+  width: 100%;
+  max-height: 400px;
+  background-color: #2A2C39;
+  display: inline-block; }
+
+.banner-text {
+  padding: 100px 0;
+  text-align: center; }
+
+#description {
+  color: #36CDA4;
+  text-transform: uppercase;
+  font-size: 1em;
+  font-weight: 600; }
+
+p a {
+  text-decoration: none;
+  font-weight: 400;
+  color: #4DD0E1; }
+p a:hover {
+  color: #2A2C39; }
+
+footer a:hover {
+  color: #fff; }
+
+/*# sourceMappingURL=style.css.map */
