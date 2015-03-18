@@ -29,7 +29,7 @@ footer {
   bottom: 0;
   margin-bottom: 0;
   width: 100%;
-  height: 200px;
+  height: 150px;
   background-color: #2A2C39; }
 
 #footer-text {
@@ -37,7 +37,7 @@ footer {
   text-align: center;
   font-weight: 600;
   font-size: 0.875em;
-  padding-top: 45px; }
+  padding-top: 30px; }
 
 figure {
   display: inline-block;
