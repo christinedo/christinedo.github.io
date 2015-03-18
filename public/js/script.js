@@ -26,9 +26,9 @@ $(document).ready(function() {
         });
 	});
 
-	$(".project-text button").click(function(event) {
+	$("#p1").click(function(event) {
 		event.preventDefault();
-		$("#a").hide("slow");
+		$("#podcats").hide("slow");
 		alert("it works");
 	});
 
