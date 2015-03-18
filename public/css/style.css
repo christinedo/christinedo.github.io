@@ -14,10 +14,20 @@ nav {
     color: #4DD0E1;
     display: block;
     text-decoration: none;
-    border-bottom: 3px solid #fff; }
+    border-bottom: 3px solid #fff;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out; }
   nav a:hover {
     color: #fff;
-    border-bottom: 3px solid transparent; }
+    border-bottom: 3px solid transparent;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out; }
 
 footer {
   clear: both;
@@ -60,17 +70,22 @@ footer {
   right: 0;
   bottom: 0;
   left: 0;
-  -webkit-transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
-  -ms-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out; }
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
 
 .project:hover {
   color: #EF5350; }
 
 .project:hover .overlay {
-  opacity: 1; }
+  opacity: 1;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
 
 span {
   text-align: center;
@@ -82,12 +97,12 @@ span.expand {
   z-index: 100;
   width: 60px;
   height: 60px;
-  border: solid 5px #fff;
+  border: solid 1px #fff;
   text-align: center;
   color: #fff;
   line-height: 60px;
   font-weight: 700;
-  font-size: 2em;
+  font-size: 2.5em;
   -webkit-border-radius: 50px;
   -moz-border-radius: 50px;
   -ms-border-radius: 50px;
@@ -158,9 +173,19 @@ p {
 p a {
   text-decoration: none;
   font-weight: 400;
-  color: #4DD0E1; }
+  color: #4DD0E1;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out; }
 p a:hover {
-  color: #2A2C39; }
+  color: #2A2C39;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out; }
 
 footer a:hover {
   color: #fff; }
