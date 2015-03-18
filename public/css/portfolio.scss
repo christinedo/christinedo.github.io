@@ -1,12 +1,11 @@
-figure {
-	display: inline-block;
-	margin: 0 0.5em 0 0;
-	img {
-		width: 300px;
-		height: auto;
-	}
-}
-
 #portfolio-content {
-	@extend %horizontal-align;
+	text-align: center;
+	figure {
+		display: inline-block;
+		margin: 0 0.5em 0 0;
+		img {
+			width: 300px;
+			height: auto;
+		}
+	}
 }
