@@ -27,7 +27,9 @@ $(document).ready(function() {
 	});
 
 	$("button").click(function(event) {
-		$("#a").hide();
+		event.preventDefault();
+		$("#a").hide("slow");
+		alert("it works");
 	});
 
 // function closeContent() {
