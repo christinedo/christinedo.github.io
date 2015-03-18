@@ -25,6 +25,11 @@
 	margin-right: auto;
 	margin-left: auto;
 	display: block;
+	h1 {
+		text-transform: uppercase;
+		font-weight: 900;
+		font-size: 6em;
+	}
 }
 
 .project-text p {
@@ -33,5 +38,5 @@
 	font-weight: 400;
 	font-size: 1.5em;
 	line-height: 2.8em;
-	display: block;
+	text-align: left;
 }
