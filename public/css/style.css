@@ -142,19 +142,22 @@ p.tagline {
 #project1 {
   width: 100%;
   height: 100%;
-  background-color: #EF5350; }
+  background-color: #EF5350;
+  display: block; }
 
 .project-text {
   max-width: 1000px;
   margin-right: auto;
-  margin-left: auto; }
+  margin-left: auto;
+  display: block; }
 
 .project-text p {
   color: #fff;
   font-family: "Merriweather", georgia, serif;
   font-weight: 400;
   font-size: 1.5em;
-  line-height: 2.8em; }
+  line-height: 2.8em;
+  display: block; }
 
 * {
   box-sizing: border-box; }
