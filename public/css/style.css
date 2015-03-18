@@ -62,14 +62,13 @@ footer a:hover {
 #portfolio-content {
   text-align: center; }
   #portfolio-content img {
-    margin: 0 0.5em 0 0;
-    width: 300px;
+    width: 310px;
     height: auto; }
 
 .project {
   display: inline-block;
-  width: 300px;
-  height: 200px;
+  width: 310px;
+  height: 207px;
   margin: 0 0.5em 0 0;
   position: relative; }
 
@@ -127,7 +126,8 @@ span.expand {
 p.tagline {
   text-transform: uppercase;
   color: #4DD0E1;
-  font-size: 1.125em; }
+  font-size: 1.125em;
+  font-weight: 600; }
 
 #me {
   float: left;
@@ -136,6 +136,9 @@ p.tagline {
   width: 200px;
   height: auto; }
 
+/*#about-text {
+	padding: 0 10px;
+}*/
 * {
   box-sizing: border-box; }
 
@@ -159,7 +162,7 @@ body {
   margin: auto;
   text-align: left;
   position: relative;
-  padding-top: 5em; }
+  padding: 5em 0.5em 0 0.5em; }
 
 h1 {
   font-weight: 300;

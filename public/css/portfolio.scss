@@ -2,16 +2,15 @@
 	text-align: center;
   img {
 //    display: inline-block;
-    margin: 0 0.5em 0 0;
-    width: 300px;
+    width: 310px;
     height: auto;
   }
 }
 
 .project {
 	display: inline-block;
-	width: 300px;
-	height: 200px;
+	width: 310px;
+	height: 207px;
 	margin: 0 0.5em 0 0;
 	position: relative;
 }
@@ -77,4 +76,5 @@ p.tagline {
 	text-transform: uppercase;
 	color: $blue;
 	font-size: 1.125em;
+	font-weight: 600;
 }
