@@ -31,13 +31,20 @@
 		font-size: 6em;
 		text-align: left;
 	}
-}
-
-.project-text p {
-	color: #fff;
-	font-family: $project-font;
-	font-weight: 400;
-	font-size: 1.5em;
-	line-height: 2.8em;
-	text-align: left;
+	p {
+		color: #fff;
+		font-family: $project-font;
+		font-weight: 400;
+		font-size: 1.5em;
+		line-height: 2.8em;
+		text-align: left;
+	}
+	button {
+		background-color: transparent;
+		border: 1px solid $blue-black;
+		font-weight: 300;
+		font-family: $main-fonts;
+		text-transform: uppercase;
+		font-size: 1.5em;
+	}
 }
