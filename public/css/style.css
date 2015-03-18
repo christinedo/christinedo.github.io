@@ -2,7 +2,7 @@ nav {
   text-transform: uppercase;
   font-size: 1.125em;
   font-weight: 400;
-  padding-top: 2em; }
+  padding-top: 2.5em; }
   nav ul {
     margin: 0;
     padding: 0;
@@ -37,12 +37,63 @@ footer {
 
 #portfolio-content {
   text-align: center; }
-  #portfolio-content figure {
-    display: inline-block;
-    margin: 0 0.5em 0 0; }
-    #portfolio-content figure img {
-      width: 300px;
-      height: auto; }
+  #portfolio-content img {
+    margin: 0 0.5em 0 0;
+    width: 300px;
+    height: auto; }
+
+.project {
+  display: inline-block;
+  width: 300px;
+  height: 200px;
+  margin: 0 0.5em 0 0;
+  position: relative; }
+
+.overlay {
+  background: rgba(44, 42, 57, 0.5);
+  text-align: center;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out; }
+
+.project:hover {
+  color: #EF5350; }
+
+.project:hover .overlay {
+  opacity: 1; }
+
+span {
+  text-align: center;
+  position: relative; }
+
+span.expand {
+  display: inline-block;
+  margin: 60px 0 0 0;
+  z-index: 100;
+  width: 60px;
+  height: 60px;
+  border: solid 5px #fff;
+  text-align: center;
+  color: #fff;
+  line-height: 60px;
+  font-weight: 700;
+  font-size: 2em;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  border-radius: 50px;
+  text-decoration: none; }
 
 #me {
   float: left;
@@ -88,15 +139,6 @@ p {
   font-weight: 400;
   font-size: 1em; }
 
-/*hr {
-    display: block;
-    height: 1px;
-    width: 50%;
-    border: 0;
-    border-top: 2px solid $main-color;
-   // margin: 0 0 0 0.5em;
-    padding: 0;
-}*/
 .banner {
   width: 100%;
   max-height: 500px;
@@ -104,7 +146,7 @@ p {
   display: inline-block; }
 
 .banner-text {
-  padding: 50px 0 50px 0;
+  padding: 50px 0 100px 0;
   text-align: center; }
 
 #description {
