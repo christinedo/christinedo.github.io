@@ -26,7 +26,7 @@ $(document).ready(function() {
         });
 	});
 
-	$("button").click(function(event) {
+	$(".project-text button").click(function(event) {
 		event.preventDefault();
 		$("#a").hide("slow");
 		alert("it works");
