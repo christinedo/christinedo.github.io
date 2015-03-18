@@ -17,7 +17,7 @@
 }
 
 .overlay {  
-    background: $blue-rgba;
+    background: $blue-black-rgba;
     text-align: center;
     opacity: 0;    
     width: 100%;
@@ -71,4 +71,10 @@ span.expand {
 	-o-border-radius: 50px;
 	border-radius: 50px;
 	text-decoration: none;
+}
+
+p.tagline {
+	text-transform: uppercase;
+	color: $blue;
+	font-size: 1.125em;
 }

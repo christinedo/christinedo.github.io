@@ -74,7 +74,7 @@ footer a:hover {
   position: relative; }
 
 .overlay {
-  background: rgba(77, 208, 225, 0.5);
+  background: rgba(44, 42, 57, 0.6);
   text-align: center;
   opacity: 0;
   width: 100%;
@@ -123,6 +123,11 @@ span.expand {
   -o-border-radius: 50px;
   border-radius: 50px;
   text-decoration: none; }
+
+p.tagline {
+  text-transform: uppercase;
+  color: #4DD0E1;
+  font-size: 1.125em; }
 
 #me {
   float: left;
