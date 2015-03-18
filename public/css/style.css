@@ -139,6 +139,14 @@ p.tagline {
 /*#about-text {
 	padding: 0 10px;
 }*/
+#project1 {
+  width: 100%;
+  height: 100%;
+  background-color: #EF5350; }
+
+#project1 p {
+  color: #36CDA4; }
+
 * {
   box-sizing: border-box; }
 
