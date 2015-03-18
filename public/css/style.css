@@ -87,7 +87,8 @@ footer a:hover {
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out; }
+  transition: all 0.3s ease-in-out;
+  cursor: pointer; }
 
 .project:hover {
   color: #EF5350; }
@@ -139,12 +140,19 @@ p.tagline {
 /*#about-text {
 	padding: 0 10px;
 }*/
-#project1 {
+#project1, #project2, #project3 {
   width: 100%;
   margin: 0;
-  padding: 0;
-  background-color: #EF5350;
-  display: block; }
+  padding: 0; }
+
+#project1 {
+  background-color: #EF5350; }
+
+#project2 {
+  background-color: #4DD0E1; }
+
+#project3 {
+  background-color: #36CDA4; }
 
 .project-text {
   max-width: 1000px;
@@ -234,9 +242,5 @@ p a:hover {
   -o-transition: all 0.2s ease-in-out;
   -ms-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out; }
-
-.test {
-  width: 100%;
-  background-color: #4DD0E1; }
 
 /*# sourceMappingURL=style.css.map */

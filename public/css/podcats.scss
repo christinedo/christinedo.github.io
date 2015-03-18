@@ -1,9 +1,23 @@
-#project1 {
+%project {
 	width: 100%;
 	margin: 0;
 	padding: 0;
+}
+
+#project1 {
+	@extend %project;
 	background-color: $red;
-	display: block;
+//	display: block;
+}
+
+#project2 {
+	@extend %project;
+	background-color: $blue;
+}
+
+#project3 {
+	@extend %project;
+	background-color: $green;
 }
 
 .project-text {
