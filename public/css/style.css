@@ -49,6 +49,7 @@ figure {
 #me {
   float: left;
   padding-right: 20px;
+  padding-bottom: 20px;
   width: 200px;
   height: auto; }
 
