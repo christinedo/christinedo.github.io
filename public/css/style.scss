@@ -19,6 +19,7 @@ body {
 	background-color: $bg-color;
 	color: $main-color;
 	margin: 0;
+	min-width: 1000px;
 }
 
 .main-container {
@@ -99,4 +100,8 @@ p {
 .test {
 	width: 100%;
 	background-color: $blue;
+}
+
+a {
+	cursor: pointer;
 }

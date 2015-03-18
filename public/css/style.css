@@ -170,7 +170,8 @@ body {
   font-family: "Source Sans Pro", helvetica, sans-serif;
   background-color: #fffffc;
   color: #3d3d3d;
-  margin: 0; }
+  margin: 0;
+  min-width: 1000px; }
 
 .main-container {
   width: 100%;
@@ -237,5 +238,8 @@ p a:hover {
 .test {
   width: 100%;
   background-color: #4DD0E1; }
+
+a {
+  cursor: pointer; }
 
 /*# sourceMappingURL=style.css.map */
