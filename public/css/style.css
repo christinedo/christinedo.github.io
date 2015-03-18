@@ -231,4 +231,8 @@ p a:hover {
   -ms-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out; }
 
+.test {
+  width: 100%;
+  background-color: #4DD0E1; }
+
 /*# sourceMappingURL=style.css.map */
