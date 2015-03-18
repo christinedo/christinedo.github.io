@@ -3,10 +3,10 @@ nav {
 	text-transform: uppercase;
 	font-size: 1.125em;
 	font-weight: 400;
-	padding-top: 2.5em;
+//	padding-top: 2.5em;
 	ul {
 		margin: 0;
-		padding: 0;
+		padding: 20px 0 0 0;
 		list-style: none;
 	}
 
@@ -36,4 +36,18 @@ nav {
     	-ms-transition: all 0.2s ease-in-out;
     	transition: all 0.2s ease-in-out;
 	}
+}
+
+.main-nav {
+	position: relative;
+  	background: $blue-black;
+  	height: 70px;
+  	z-index: 150;
+  	margin-bottom: -70px;
+  	width: 100%;
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
 }

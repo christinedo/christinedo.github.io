@@ -8,11 +8,19 @@
 	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,400italic' rel='stylesheet' type='text/css'>
 
     <link rel="stylesheet" type="text/css" href="public/css/style.css">
+    <script type="text/javascript" src="public/js/jquery.min.js"></script>
+    <script type="text/javascript" src="public/js/velocity.min.js"></script>
+    <script>
+    	var num = 400; //number of pixels before fixed attribute
 
-   <!-- <script src="//use.typekit.net/bxx1hrt.js"></script>
-	<script>try{Typekit.load();}catch(e){}</script> -->
-    <script type="text/javascript" src="js/jquery.min.js"></script>
-    <script type="text/javascript" src="js/velocity.min.js"></script>
+		$(window).bind('scroll', function () {
+		    if ($(window).scrollTop() > num) {
+		        $('.main-nav').addClass('fixed');
+		    } else {
+		        $('.main-nav').removeClass('fixed');
+		    }
+		});
+	</script>
 
  	<!-- favicon -->
 	<link rel="icon" href="public/img/favicon.png">
@@ -25,29 +33,30 @@
 				<img src="public/img/bunny.svg" width="100px" height="auto">
 				<h1>Christine Van Do</h1>
 				<span id="description">UX/UI Designer; My first love is coffee.</span>
-					<nav>
-						<ul>
-							<li><a href="#portfolio">Portfolio</a></li>
-							<li><a href="#about">About</a></li>
-							<li><a href="#resume">Resume</a></li>
-						</ul>
-					</nav>
 			</div>
+				<nav class="main-nav">
+					<ul>
+						<li><a href="#portfolio">Portfolio</a></li>
+						<li><a href="#about">About</a></li>
+						<li><a href="#resume">Resumé</a></li>
+					</ul>
+				</nav>
 		</div>
+		<div class="main-container">
 		<div class="content">
 			<div id="portfolio">
 				<h2>Portfolio</h2>
 					<div id="portfolio-content">
 						<div class="project">
-							<img src="public/img/placeholder.png">
+							<img src="public/img/podcats.png">
 							<a href="http://www.google.com"><div class="overlay"><span class="expand">+</span></div></a>
 						</div>
 						<div class="project">
-							<img src="public/img/placeholder.png">
+							<img src="public/img/MWCH.png">
 							<a href="http://www.google.com"><div class="overlay"><span class="expand">+</span></div></a>
 						</div>
 						<div class="project">
-							<img src="public/img/placeholder.png">
+							<img src="public/img/IA.png">
 							<a href="http://www.google.com"><div class="overlay"><span class="expand">+</span></div></a>
 						</div>
 					</div>
@@ -62,11 +71,11 @@
 					</div>
 			</div>
 			<div id="resume">
-				<h2>Resume</h2>
+				<h2>Resumé</h2>
 				<p><a href="public/img/Christine_Do_Resume.pdf" target="_blank">View the PDF Version</a></p>
 			</div>
 		</div>
-
+</div>
 		<footer>
 			<div id="footer-text">
 				<img src="public/img/carrot.svg" width="50px" height="auto">
