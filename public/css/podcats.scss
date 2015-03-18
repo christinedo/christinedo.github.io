@@ -4,6 +4,16 @@
 	background-color: $red;
 }
 
-#project1 p {
-	color: $green;
+.project-text {
+	max-width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.project-text p {
+	color: #fff;
+	font-family: $project-font;
+	font-weight: 400;
+	font-size: 1.5em;
+	line-height: 2.8em;
 }

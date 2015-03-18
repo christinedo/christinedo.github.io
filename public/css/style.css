@@ -144,8 +144,17 @@ p.tagline {
   height: 100%;
   background-color: #EF5350; }
 
-#project1 p {
-  color: #36CDA4; }
+.project-text {
+  max-width: 1000px;
+  margin-right: auto;
+  margin-left: auto; }
+
+.project-text p {
+  color: #fff;
+  font-family: "Merriweather", georgia, serif;
+  font-weight: 400;
+  font-size: 1.5em;
+  line-height: 2.8em; }
 
 * {
   box-sizing: border-box; }
