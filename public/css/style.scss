@@ -2,10 +2,14 @@
 @import 'navbar';
 @import 'footer';
 @import 'portfolio';
+@import 'about';
+
+html, body {
+	font-size: 100%;
+}
 
 body {
 	font-family: $main-fonts;
-	font-size: 100%;
 	background-color: $bg-color;
 	color: $main-color;
 	margin: 0;
@@ -63,7 +67,7 @@ p {
 }
 
 .banner-text {
-	padding: 50px 0 100px 0;
+	padding: 50px 0 50px 0;
 	text-align: center;
 }
 
