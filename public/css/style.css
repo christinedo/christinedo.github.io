@@ -56,7 +56,7 @@ footer {
   font-size: 0.875em;
   padding-top: 30px; }
 
-footer a:hover {
+footer p a:hover {
   color: #fff; }
 
 #portfolio-content {
@@ -127,7 +127,7 @@ span.expand {
 p.tagline {
   text-transform: uppercase;
   color: #fff;
-  font-size: 1.5em;
+  font-size: 1.3em;
   font-weight: 600; }
 
 #me {
@@ -164,7 +164,8 @@ p.tagline {
 #x1, #x2, #x3 {
   float: right;
   cursor: pointer;
-  display: inline-block; }
+  display: inline-block;
+  padding: 20px 20px 0 0; }
   #x1 img, #x2 img, #x3 img {
     width: 50px;
     height: auto; }
@@ -176,10 +177,10 @@ a > button {
   color: #fff;
   border-color: #fff; }
 
-a:hover > button {
-  color: #2A2C39;
-  border-color: #2A2C39; }
-
+/*a:hover > button {
+	color: $blue-black;
+	border-color: $blue-black;
+}*/
 .project-text {
   max-width: 1000px;
   margin-right: auto;
@@ -189,9 +190,27 @@ a:hover > button {
   .project-text h1 {
     text-transform: uppercase;
     font-weight: 900;
-    font-size: 6em;
+    font-size: 7em;
     text-align: left;
-    float: left; }
+    float: left;
+    margin-bottom: 10px; }
+  .project-text h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 3.5em;
+    text-align: left;
+    color: #fff;
+    margin-bottom: 0; }
+  .project-text h3 {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 1.875em;
+    text-align: left;
+    float: left;
+    letter-spacing: 5px;
+    color: #E0F7FA;
+    margin-top: 0;
+    padding-bottom: 50px; }
   .project-text p {
     color: #fff;
     font-family: "Merriweather", georgia, serif;
@@ -210,7 +229,20 @@ a:hover > button {
     font-size: 1.5em;
     cursor: pointer;
     padding: 15px 20px;
-    display: inline-block; }
+    display: inline-block;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out; }
+  .project-text button:hover {
+    color: #2A2C39;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    border-color: #2A2C39; }
 
 * {
   box-sizing: border-box; }
@@ -287,5 +319,9 @@ p a:hover {
   -o-transition: all 0.2s ease-in-out;
   -ms-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out; }
+
+:focus {
+  outline-color: transparent;
+  outline-style: none; }
 
 /*# sourceMappingURL=style.css.map */

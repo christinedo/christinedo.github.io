@@ -16,10 +16,10 @@ $(document).ready(function() {
 		//alert("it works");
 	});
 
-	$("#project1").click(function(event) {
-		$("#project1").fadeOut(500);
-		//alert("it works");
-	});
+	// $("#project1").click(function(event) {
+	// 	$("#project1").fadeOut(500);
+	// 	//alert("it works");
+	// });
 
 // PROJECT 2
 
@@ -37,10 +37,10 @@ $(document).ready(function() {
 		//alert("it works");
 	});
 
-	$("#project2").click(function(event) {
-		$("#project2").fadeOut(500);
-		//alert("it works");
-	});
+	// $("#project2").click(function(event) {
+	// 	$("#project2").fadeOut(500);
+	// 	//alert("it works");
+	// });
 
 // PROJECT 3
 
@@ -58,10 +58,10 @@ $(document).ready(function() {
 		//alert("it works");
 	});
 
-	$("#project3").click(function(event) {
-		$("#project3").fadeOut(500);
-		//alert("it works");
-	});
+	// $("#project3").click(function(event) {
+	// 	$("#project3").fadeOut(500);
+	// 	//alert("it works");
+	// });
 
 	// $("#podcats").click(function(event) {
 	// 	$("#a").load("podcats.html #project1", function(responseTxt, statusTxt, xhr){
