@@ -6,6 +6,7 @@
     <meta charset="UTF-8" />
 
 	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,400italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Merriweather:400,700,300,400italic,700italic,300italic' rel='stylesheet' type='text/css'>
 
     <link rel="stylesheet" type="text/css" href="public/css/style.css">
     <script type="text/javascript" src="public/js/jquery.min.js"></script>
@@ -43,51 +44,99 @@
 					</ul>
 				</nav>
 		</div>
-		<div class="main-container">	
-		<div class="content">
-			<div id="portfolio">
-				<h2>Portfolio</h2>
-					<div id="portfolio-content">
-						<div class="project">
-							<img src="public/img/podcats.png">
-							<a href="http://www.google.com">
-								<div class="overlay">
-									<span class="expand">
-										+
-									</span>
-									<p class="tagline">Test, test, then test some more.</p>
-								</div>
-							</a>
+		<div id="a"></div>
+			<div class="content">
+				<div id="portfolio">
+					<h2>Portfolio</h2>
+						<div id="portfolio-content">
+							<div class="project">
+								<img src="public/img/podcats.png">
+									<div class="overlay" id="podcats">
+										<span class="expand">
+											+
+										</span>
+										<p class="tagline">Test, test, then test some more.</p>
+									</div>
+							</div>
+							<div class="project">
+								<img src="public/img/MWCH.png">
+									<div class="overlay" id="mwch">
+										<span class="expand">
+											+
+										</span>
+										<p class="tagline">What's in a brand?</p>
+									</div>
+							</div>
+							<div class="project">
+								<img src="public/img/IA.png">
+									<div class="overlay" id="leicester">
+										<span class="expand">
+											+
+										</span>
+										<p class="tagline">Usability &amp; Information Architecture</p>
+									</div>
+							</div>
 						</div>
-						<div class="project">
-							<img src="public/img/MWCH.png">
-							<a href="http://www.google.com">
-								<div class="overlay">
-									<span class="expand">
-										+
-									</span>
-									<p class="tagline">What's in a brand?</p>
-								</div>
-							</a>
-						</div>
-						<div class="project">
-							<img src="public/img/IA.png">
-							<a href="http://www.google.com">
-								<div class="overlay">
-									<span class="expand">
-										+
-									</span>
-									<p class="tagline">Usability &amp; Information Architecture</p>
-								</div>
-							</a>
-						</div>
-					</div>
-			</div>
+				</div>
+
+<!-- Portfolio div overlay content -->
+
+<div id="project1">
+	<div class="project-text">
+	<div id="x1"><img src="public/img/cross.png"></div>
+	<h1>Podcats</h1>
+		<p>Gastropub locavore migas, actually Bushwick banjo keytar. Raw denim jean shorts before they sold out dreamcatcher, Marfa Bushwick artisan flannel 3 wolf moon fixie typewriter Thundercats keytar Vice flexitarian. Art party listicle messenger bag dreamcatcher heirloom street art. Selfies High Life four loko scenester artisan wayfarers squid kale chips, wolf Truffaut irony YOLO fanny pack roof party beard. Put a bird on it stumptown fingerstache gentrify you probably haven't heard of them Bushwick. Williamsburg single-origin coffee stumptown fingerstache. Post-ironic lo-fi mustache farm-to-table stumptown pug, twee iPhone literally typewriter viral ennui Helvetica Shoreditch.</p>
+
+		<p>Beard organic sustainable deep v, stumptown next level mustache Godard yr pug XOXO disrupt tote bag irony. Vice Kickstarter PBR&B keffiyeh Austin Bushwick, slow-carb shabby chic polaroid try-hard Carles pickled narwhal Odd Future meh. Fap authentic deep v, migas before they sold out banh mi squid vegan asymmetrical kale chips typewriter. Shoreditch put a bird on it hashtag Austin. Photo booth cray trust fund sriracha. Asymmetrical narwhal master cleanse Vice mixtape McSweeney's. Irony raw denim Odd Future cardigan, squid hella post-ironic scenester.</p>
+
+		<p>Cliche leggings squid tote bag YOLO flexitarian. Ethical church-key Wes Anderson listicle fap. Polaroid try-hard McSweeney's DIY PBR&B raw denim banjo. Cray Pitchfork Helvetica, asymmetrical hoodie heirloom tattooed PBR&B Carles lo-fi drinking vinegar retro wolf viral. McSweeney's mixtape gentrify keffiyeh, Godard organic disrupt aesthetic quinoa plaid Echo Park umami pour-over semiotics distillery. Fixie banjo taxidermy bicycle rights. Squid brunch +1 selvage, food truck locavore try-hard irony cornhole umami 90's 3 wolf moon jean shorts.</p>
+
+		<p>American Apparel Kickstarter master cleanse tofu, viral normcore McSweeney's post-ironic XOXO Austin. Brooklyn Intelligentsia Pitchfork cliche, Marfa hoodie DIY Thundercats polaroid raw denim meggings. Authentic fap chia, normcore Shoreditch farm-to-table tote bag paleo kogi meggings pickled Bushwick ethical drinking vinegar ugh. Banjo twee meggings biodiesel. Keffiyeh 8-bit +1, occupy shabby chic flannel seitan synth Williamsburg DIY. Before they sold out semiotics swag twee tofu, fanny pack actually typewriter PBR trust fund Godard pug artisan occupy quinoa. Meggings 90's yr, ennui crucifix Austin leggings umami Truffaut pop-up Kickstarter craft beer farm-to-table irony.</p>
+
+		<a href="http://sdpodcats.herokuapp.com/"><button>View Website</button></a>
+		<button id="p1">Close Project</button>
+	</div>
+</div>
+
+<div id="project2">
+	<div class="project-text">
+	<div id="x2"><img src="public/img/cross.png"></div>
+	<h1>Muir Woods Coffee House</h1>
+		<p>Gastropub locavore migas, actually Bushwick banjo keytar. Raw denim jean shorts before they sold out dreamcatcher, Marfa Bushwick artisan flannel 3 wolf moon fixie typewriter Thundercats keytar Vice flexitarian. Art party listicle messenger bag dreamcatcher heirloom street art. Selfies High Life four loko scenester artisan wayfarers squid kale chips, wolf Truffaut irony YOLO fanny pack roof party beard. Put a bird on it stumptown fingerstache gentrify you probably haven't heard of them Bushwick. Williamsburg single-origin coffee stumptown fingerstache. Post-ironic lo-fi mustache farm-to-table stumptown pug, twee iPhone literally typewriter viral ennui Helvetica Shoreditch.</p>
+
+		<p>Beard organic sustainable deep v, stumptown next level mustache Godard yr pug XOXO disrupt tote bag irony. Vice Kickstarter PBR&B keffiyeh Austin Bushwick, slow-carb shabby chic polaroid try-hard Carles pickled narwhal Odd Future meh. Fap authentic deep v, migas before they sold out banh mi squid vegan asymmetrical kale chips typewriter. Shoreditch put a bird on it hashtag Austin. Photo booth cray trust fund sriracha. Asymmetrical narwhal master cleanse Vice mixtape McSweeney's. Irony raw denim Odd Future cardigan, squid hella post-ironic scenester.</p>
+
+		<p>Cliche leggings squid tote bag YOLO flexitarian. Ethical church-key Wes Anderson listicle fap. Polaroid try-hard McSweeney's DIY PBR&B raw denim banjo. Cray Pitchfork Helvetica, asymmetrical hoodie heirloom tattooed PBR&B Carles lo-fi drinking vinegar retro wolf viral. McSweeney's mixtape gentrify keffiyeh, Godard organic disrupt aesthetic quinoa plaid Echo Park umami pour-over semiotics distillery. Fixie banjo taxidermy bicycle rights. Squid brunch +1 selvage, food truck locavore try-hard irony cornhole umami 90's 3 wolf moon jean shorts.</p>
+
+		<p>American Apparel Kickstarter master cleanse tofu, viral normcore McSweeney's post-ironic XOXO Austin. Brooklyn Intelligentsia Pitchfork cliche, Marfa hoodie DIY Thundercats polaroid raw denim meggings. Authentic fap chia, normcore Shoreditch farm-to-table tote bag paleo kogi meggings pickled Bushwick ethical drinking vinegar ugh. Banjo twee meggings biodiesel. Keffiyeh 8-bit +1, occupy shabby chic flannel seitan synth Williamsburg DIY. Before they sold out semiotics swag twee tofu, fanny pack actually typewriter PBR trust fund Godard pug artisan occupy quinoa. Meggings 90's yr, ennui crucifix Austin leggings umami Truffaut pop-up Kickstarter craft beer farm-to-table irony.</p>
+
+		<a href="http://noslp-mwch.herokuapp.com/"><button>View Website</button></a>
+		<button id="p2">Close Project</button>
+	</div>
+</div>
+
+<div id="project3">
+	<div class="project-text">
+	<div id="x3"><img src="public/img/cross.png"></div>
+	<h1>Redesign: University of Leicester</h1>
+		<p>Gastropub locavore migas, actually Bushwick banjo keytar. Raw denim jean shorts before they sold out dreamcatcher, Marfa Bushwick artisan flannel 3 wolf moon fixie typewriter Thundercats keytar Vice flexitarian. Art party listicle messenger bag dreamcatcher heirloom street art. Selfies High Life four loko scenester artisan wayfarers squid kale chips, wolf Truffaut irony YOLO fanny pack roof party beard. Put a bird on it stumptown fingerstache gentrify you probably haven't heard of them Bushwick. Williamsburg single-origin coffee stumptown fingerstache. Post-ironic lo-fi mustache farm-to-table stumptown pug, twee iPhone literally typewriter viral ennui Helvetica Shoreditch.</p>
+
+		<p>Beard organic sustainable deep v, stumptown next level mustache Godard yr pug XOXO disrupt tote bag irony. Vice Kickstarter PBR&B keffiyeh Austin Bushwick, slow-carb shabby chic polaroid try-hard Carles pickled narwhal Odd Future meh. Fap authentic deep v, migas before they sold out banh mi squid vegan asymmetrical kale chips typewriter. Shoreditch put a bird on it hashtag Austin. Photo booth cray trust fund sriracha. Asymmetrical narwhal master cleanse Vice mixtape McSweeney's. Irony raw denim Odd Future cardigan, squid hella post-ironic scenester.</p>
+
+		<p>Cliche leggings squid tote bag YOLO flexitarian. Ethical church-key Wes Anderson listicle fap. Polaroid try-hard McSweeney's DIY PBR&B raw denim banjo. Cray Pitchfork Helvetica, asymmetrical hoodie heirloom tattooed PBR&B Carles lo-fi drinking vinegar retro wolf viral. McSweeney's mixtape gentrify keffiyeh, Godard organic disrupt aesthetic quinoa plaid Echo Park umami pour-over semiotics distillery. Fixie banjo taxidermy bicycle rights. Squid brunch +1 selvage, food truck locavore try-hard irony cornhole umami 90's 3 wolf moon jean shorts.</p>
+
+		<p>American Apparel Kickstarter master cleanse tofu, viral normcore McSweeney's post-ironic XOXO Austin. Brooklyn Intelligentsia Pitchfork cliche, Marfa hoodie DIY Thundercats polaroid raw denim meggings. Authentic fap chia, normcore Shoreditch farm-to-table tote bag paleo kogi meggings pickled Bushwick ethical drinking vinegar ugh. Banjo twee meggings biodiesel. Keffiyeh 8-bit +1, occupy shabby chic flannel seitan synth Williamsburg DIY. Before they sold out semiotics swag twee tofu, fanny pack actually typewriter PBR trust fund Godard pug artisan occupy quinoa. Meggings 90's yr, ennui crucifix Austin leggings umami Truffaut pop-up Kickstarter craft beer farm-to-table irony.</p>
+
+		<button id="p3">Close Project</button>
+	</div>
+</div>
+
+<!-- Portfolio content end -->
+
 			<div id="about">
 				<h2>About</h2>
 					<img src="public/img/me.png" id="me">
 					<div id="about-text">
-						<p>Hi there! I'm Christine, a UX/UI designer from the Bay Area.</p>
 						<p>Lomo iPhone next level 90's Odd Future, polaroid artisan lumbersexual chia bitters Vice fap whatever mlkshk fixie. Mixtape hella aesthetic, Blue Bottle church-key 90's synth tilde Carles meggings tousled. Four loko kogi organic, trust fund squid single-origin coffee Shoreditch church-key semiotics deep v. High Life Brooklyn sustainable Intelligentsia. Jean shorts aesthetic gluten-free street art. Mlkshk leggings aesthetic food truck stumptown. Messenger bag tousled DIY four dollar toast sartorial, readymade squid Pinterest YOLO actually Pitchfork pug.</p>
 
 						<p>Put a bird on it literally mixtape, Banksy actually PBR&B lo-fi Thundercats normcore listicle fashion axe heirloom crucifix mumblecore sriracha. Brooklyn selvage lomo, gentrify irony raw denim cardigan fashion axe ennui Marfa. Freegan viral Tumblr cray drinking vinegar, pickled yr. Stumptown Portland Pitchfork American Apparel Marfa. IPhone PBR&B Schlitz heirloom. Stumptown heirloom next level, DIY sartorial pug XOXO fanny pack listicle. Banksy lo-fi semiotics cold-pressed banjo.</p>
@@ -98,7 +147,7 @@
 				<p><a href="public/img/Christine_Do_Resume.pdf" target="_blank">View the PDF Version</a></p>
 			</div>
 		</div>
-</div>
+	</div>
 		<footer>
 			<div id="footer-text">
 				<img src="public/img/carrot.svg" width="50px" height="auto">

@@ -27,11 +27,22 @@
 	background-color: $green;
 }
 
+#x1, #x2, #x3 {
+	float: right;
+	cursor: pointer;
+	display: inline-block;
+	img {
+		width: 50px;
+		height: auto;
+	}
+}
+
 .project-text {
 	max-width: 1000px;
 	margin-right: auto;
 	margin-left: auto;
 	padding: 30px 0;
+	text-align: center;
 	h1 {
 		text-transform: uppercase;
 		font-weight: 900;
@@ -50,11 +61,14 @@
 	}
 	button {
 		background-color: transparent;
-		border: 1px solid $blue-black;
+		border: 1px solid #fff;
+		color: #fff;
 		font-weight: 300;
 		font-family: $main-fonts;
 		text-transform: uppercase;
 		font-size: 1.5em;
-		float: right;
+		cursor: pointer;
+		padding: 15px 20px;
+		display: inline-block;
 	}
 }

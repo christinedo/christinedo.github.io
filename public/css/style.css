@@ -161,11 +161,20 @@ p.tagline {
 #project3 {
   background-color: #36CDA4; }
 
+#x1, #x2, #x3 {
+  float: right;
+  cursor: pointer;
+  display: inline-block; }
+  #x1 img, #x2 img, #x3 img {
+    width: 50px;
+    height: auto; }
+
 .project-text {
   max-width: 1000px;
   margin-right: auto;
   margin-left: auto;
-  padding: 30px 0; }
+  padding: 30px 0;
+  text-align: center; }
   .project-text h1 {
     text-transform: uppercase;
     font-weight: 900;
@@ -182,12 +191,15 @@ p.tagline {
     clear: both; }
   .project-text button {
     background-color: transparent;
-    border: 1px solid #2A2C39;
+    border: 1px solid #fff;
+    color: #fff;
     font-weight: 300;
     font-family: "Source Sans Pro", helvetica, sans-serif;
     text-transform: uppercase;
     font-size: 1.5em;
-    float: right; }
+    cursor: pointer;
+    padding: 15px 20px;
+    display: inline-block; }
 
 * {
   box-sizing: border-box; }
