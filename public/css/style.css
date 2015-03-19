@@ -115,7 +115,7 @@ span.expand {
   text-align: center;
   color: #fff;
   line-height: 60px;
-  font-weight: 700;
+  font-weight: 200;
   font-size: 2.5em;
   -webkit-border-radius: 50px;
   -moz-border-radius: 50px;
@@ -126,8 +126,8 @@ span.expand {
 
 p.tagline {
   text-transform: uppercase;
-  color: #4DD0E1;
-  font-size: 1.125em;
+  color: #fff;
+  font-size: 1.5em;
   font-weight: 600; }
 
 #me {
@@ -247,12 +247,13 @@ h1 {
 h2 {
   font-weight: 400;
   font-size: 2em;
-  color: #36CDA4;
+  color: #EF5350;
   text-transform: lowercase; }
 
 p {
   font-weight: 400;
-  font-size: 1em; }
+  font-size: 1em;
+  line-height: 1.3em; }
 
 .banner {
   width: 100%;

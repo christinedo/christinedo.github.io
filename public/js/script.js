@@ -1,4 +1,7 @@
 $(document).ready(function() {
+
+// PROJECT 1
+
 	$("#podcats").click(function(event) {
 		$("#project1").fadeIn(450);
 	});
@@ -12,6 +15,13 @@ $(document).ready(function() {
 		$("#project1").fadeOut(500);
 		//alert("it works");
 	});
+
+	$("#project1").click(function(event) {
+		$("#project1").fadeOut(500);
+		//alert("it works");
+	});
+
+// PROJECT 2
 
 	$("#mwch").click(function(event) {
 		$("#project2").fadeIn(450);
@@ -27,6 +37,13 @@ $(document).ready(function() {
 		//alert("it works");
 	});
 
+	$("#project2").click(function(event) {
+		$("#project2").fadeOut(500);
+		//alert("it works");
+	});
+
+// PROJECT 3
+
 	$("#leicester").click(function(event) {
 		$("#project3").fadeIn(450);
 	});
@@ -37,6 +54,11 @@ $(document).ready(function() {
 	});
 
 	$("#x3").click(function(event) {
+		$("#project3").fadeOut(500);
+		//alert("it works");
+	});
+
+	$("#project3").click(function(event) {
 		$("#project3").fadeOut(500);
 		//alert("it works");
 	});
