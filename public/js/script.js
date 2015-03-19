@@ -1,44 +1,44 @@
 $(document).ready(function() {
 	$("#podcats").click(function(event) {
-		$("#project1").show();
+		$("#project1").fadeIn(450);
 	});
 
 	$("#p1").click(function(event) {
-		$("#project1").hide();
-		alert("it works");
+		$("#project1").fadeOut(500);
+		//alert("it works");
 	});
 
 	$("#x1").click(function(event) {
-		$("#project1").hide();
-		alert("it works");
+		$("#project1").fadeOut(500);
+		//alert("it works");
 	});
 
 	$("#mwch").click(function(event) {
-		$("#project2").show();
+		$("#project2").fadeIn(450);
 	});
 
 	$("#p2").click(function(event) {
-		$("#project2").hide();
-		alert("it works");
+		$("#project2").fadeOut(500);
+		//alert("it works");
 	});
 
 	$("#x2").click(function(event) {
-		$("#project2").hide();
-		alert("it works");
+		$("#project2").fadeOut(500);
+		//alert("it works");
 	});
 
 	$("#leicester").click(function(event) {
-		$("#project3").show();
+		$("#project3").fadeIn(450);
 	});
 
 	$("#p3").click(function(event) {
-		$("#project3").hide();
-		alert("it works");
+		$("#project3").fadeOut(500);
+		//alert("it works");
 	});
 
 	$("#x3").click(function(event) {
-		$("#project3").hide();
-		alert("it works");
+		$("#project3").fadeOut(500);
+		//alert("it works");
 	});
 
 	// $("#podcats").click(function(event) {

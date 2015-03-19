@@ -37,6 +37,20 @@
 	}
 }
 
+.website-link {
+	margin-right: 20px;
+}
+
+a > button {
+	color: #fff;
+	border-color: #fff;
+}
+
+a:hover > button {
+	color: $blue-black;
+	border-color: $blue-black;
+}
+
 .project-text {
 	max-width: 1000px;
 	margin-right: auto;
