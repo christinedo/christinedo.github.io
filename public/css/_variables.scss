@@ -11,6 +11,16 @@ $red: #EF5350;
 $blue-black-rgba: rgba(44, 42, 57, 0.6);
 $blue-rgba: rgba(77, 208, 225, 0.3);
 
+// MIXINS
+
+@mixin transition($effect) {
+	-webkit-transition: $effect;
+    -moz-transition: $effect;
+    -o-transition: $effect;
+    -ms-transition: $effect;
+    transition: $effect;
+}
+
 // CENTERING
 
 %horizontal-align {

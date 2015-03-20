@@ -171,47 +171,52 @@ p.tagline {
     height: auto; }
 
 .website-link {
-  margin-right: 20px; }
+  margin-right: 20px;
+  text-align: left; }
 
 a > button {
   color: #fff;
   border-color: #fff; }
 
-/*a:hover > button {
-	color: $blue-black;
-	border-color: $blue-black;
-}*/
+.project-text h1, .project-text h2, .project-text h3, .project-text h4, .project-text h5 {
+  text-transform: uppercase;
+  text-align: left;
+  color: #fff; }
+
 .project-text {
   max-width: 1000px;
   margin-right: auto;
   margin-left: auto;
-  padding: 30px 0;
+  padding: 2em 0.5em;
   text-align: center; }
   .project-text h1 {
-    text-transform: uppercase;
     font-weight: 900;
     font-size: 7em;
-    text-align: left;
     float: left;
     margin-bottom: 10px; }
   .project-text h2 {
-    text-transform: uppercase;
     font-weight: 700;
-    font-size: 4em;
-    text-align: left;
-    color: #fff;
+    font-size: 5em;
     margin-bottom: 0;
     clear: both; }
   .project-text h3 {
-    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 3.5em;
+    margin-bottom: 0;
+    /*for h5 taglines*/ }
+  .project-text h4 {
     font-weight: 300;
     font-size: 1.875em;
-    text-align: left;
     float: left;
     letter-spacing: 5px;
-    color: #E0F7FA;
     margin-top: 0;
     padding-bottom: 50px; }
+  .project-text h5 {
+    font-weight: 300;
+    font-size: 1.5em;
+    float: left;
+    letter-spacing: 2px;
+    margin-top: 0; }
   .project-text p {
     color: #fff;
     font-family: "Merriweather", georgia, serif;
@@ -238,12 +243,38 @@ a > button {
     transition: all 0.2s ease-in-out; }
   .project-text button:hover {
     color: #2A2C39;
+    border-color: #2A2C39;
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
     -ms-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
-    border-color: #2A2C39; }
+    transition: all 0.2s ease-in-out; }
+
+.logistics ul {
+  list-style: none;
+  padding-left: 0;
+  color: #fff;
+  font-family: "Merriweather", georgia, serif;
+  font-weight: 400;
+  font-size: 1.5em;
+  line-height: 2.8em;
+  text-align: left;
+  clear: both; }
+.logistics li {
+  font-style: italic; }
+  .logistics li strong {
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: "Source Sans Pro", helvetica, sans-serif;
+    font-style: normal; }
+  .logistics li a {
+    color: #2A2C39;
+    text-decoration: none; }
+  .logistics li a:hover {
+    color: #fff; }
+
+.projectButtons {
+  padding: 30px 0 50px 0; }
 
 * {
   box-sizing: border-box; }
