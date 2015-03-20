@@ -104,6 +104,16 @@ a > button {
 		line-height: 2.8em;
 		text-align: left;
 		clear: both;
+		a {
+			color: $blue-black;
+			text-decoration: none;
+			border-bottom: 4px solid transparent;
+			@include transition(all 0.2s ease-in-out);
+		}
+		a:hover {
+			border-bottom-color: #fff;
+			@include transition(all 0.2s ease-in-out);
+		}
 	}
 	button {
 		background-color: transparent;
