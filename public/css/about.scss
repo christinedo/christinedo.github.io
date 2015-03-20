@@ -1,11 +1,28 @@
+#about {
+	padding: 2.5em 0 0 0;
+}
+
 #me {
 	float: left;
 	padding-right: 20px;
 	padding-bottom: 20px;
-	width: 200px;
-	height: auto;
+	img {
+		width: 200px;
+		height: auto;
+	}
 }
 
-/*#about-text {
-	padding: 0 10px;
-}*/
+#about-text {
+	overflow: hidden; /* keeps the text from wrapping under the image */
+	ul {
+		list-style-type: circle;
+		li {
+			line-height: 1.8em;
+		}
+	}
+	ol {
+		li {
+			line-height: 1.8em;
+		}
+	}
+}

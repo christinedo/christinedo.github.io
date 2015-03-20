@@ -130,16 +130,27 @@ p.tagline {
   font-size: 1.3em;
   font-weight: 600; }
 
+#about {
+  padding: 2.5em 0 0 0; }
+
 #me {
   float: left;
   padding-right: 20px;
-  padding-bottom: 20px;
-  width: 200px;
-  height: auto; }
+  padding-bottom: 20px; }
+  #me img {
+    width: 200px;
+    height: auto; }
 
-/*#about-text {
-	padding: 0 10px;
-}*/
+#about-text {
+  overflow: hidden;
+  /* keeps the text from wrapping under the image */ }
+  #about-text ul {
+    list-style-type: circle; }
+    #about-text ul li {
+      line-height: 1.8em; }
+  #about-text ol li {
+    line-height: 1.8em; }
+
 #project1, #project2, #project3 {
   width: 100%;
   height: 100%;
@@ -287,6 +298,9 @@ a > button {
 .projectButtons {
   padding: 30px 0 50px 0; }
 
+#resume {
+  clear: both; }
+
 * {
   box-sizing: border-box; }
 
@@ -328,7 +342,7 @@ h2 {
 p {
   font-weight: 400;
   font-size: 1em;
-  line-height: 1.3em; }
+  line-height: 1.8em; }
 
 .banner {
   width: 100%;
