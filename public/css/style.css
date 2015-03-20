@@ -148,7 +148,8 @@ p.tagline {
   overflow: hidden;
   /* keeps the text from wrapping under the image */ }
   #about-text p {
-    line-height: 1.8em; }
+    line-height: 1.8em;
+    margin-top: 0; }
   #about-text ul {
     list-style-type: circle; }
     #about-text ul li {
