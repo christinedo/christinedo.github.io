@@ -153,13 +153,13 @@ p.tagline {
   z-index: 99999; }
 
 #project1 {
-  background-color: #EF5350; }
+  background-color: #36CDA4; }
 
 #project2 {
-  background-color: #4DD0E1; }
+  background-color: #EF5350; }
 
 #project3 {
-  background-color: #36CDA4; }
+  background-color: #4DD0E1; }
 
 #x1, #x2, #x3 {
   float: right;
@@ -269,9 +269,20 @@ a > button {
     font-style: normal; }
   .logistics li a {
     color: #2A2C39;
-    text-decoration: none; }
+    text-decoration: none;
+    border-bottom: 4px solid transparent;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out; }
   .logistics li a:hover {
-    color: #fff; }
+    border-bottom-color: #fff;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out; }
 
 .projectButtons {
   padding: 30px 0 50px 0; }

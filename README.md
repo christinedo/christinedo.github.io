@@ -1,2 +1,2 @@
 #My UX/UI Portfolio
-:bowtie:
+:blue_heart: :rabbit: :bowtie:

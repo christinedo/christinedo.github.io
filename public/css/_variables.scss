@@ -21,6 +21,12 @@ $blue-rgba: rgba(77, 208, 225, 0.3);
     transition: $effect;
 }
 
+@mixin columns($number) {
+	-webkit-column-count: $number; /* Chrome, Safari, Opera */
+    -moz-column-count: $number; /* Firefox */
+    column-count: $number;
+}
+
 // CENTERING
 
 %horizontal-align {

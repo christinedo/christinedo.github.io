@@ -13,17 +13,17 @@
 
 #project1 {
 	@extend %project;
-	background-color: $red;
+	background-color: $green;
 }
 
 #project2 {
 	@extend %project;
-	background-color: $blue;
+	background-color: $red;
 }
 
 #project3 {
 	@extend %project;
-	background-color: $green;
+	background-color: $blue;
 }
 
 #x1, #x2, #x3 {
@@ -146,11 +146,14 @@ a > button {
 			font-style: normal;
 		}
 		a {
-		color: $blue-black;
-		text-decoration: none;
+			color: $blue-black;
+			text-decoration: none;
+			border-bottom: 4px solid transparent;
+			@include transition(all 0.2s ease-in-out);
 		}
 		a:hover {
-			color: #fff;
+			border-bottom-color: #fff;
+			@include transition(all 0.2s ease-in-out);
 		}
 	}
 }
