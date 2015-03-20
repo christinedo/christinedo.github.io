@@ -14,6 +14,9 @@
 
 #about-text {
 	overflow: hidden; /* keeps the text from wrapping under the image */
+	p {
+		line-height: 1.8em;
+	}
 	ul {
 		list-style-type: circle;
 		li {
@@ -23,6 +26,17 @@
 	ol {
 		li {
 			line-height: 1.8em;
+		}
+		a {
+			text-decoration: none;
+			font-weight: 400;
+			color: $blue;
+			@include transition(all 0.2s ease-in-out);
+		}
+
+		a:hover {
+			color: $blue-black;
+			@include transition(all 0.2s ease-in-out);
 		}
 	}
 }

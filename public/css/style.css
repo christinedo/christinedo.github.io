@@ -59,6 +59,9 @@ footer {
 footer p a:hover {
   color: #fff; }
 
+#portfolio {
+  padding: 2.5em 0 0 0; }
+
 #portfolio-content {
   text-align: center; }
   #portfolio-content img {
@@ -144,12 +147,30 @@ p.tagline {
 #about-text {
   overflow: hidden;
   /* keeps the text from wrapping under the image */ }
+  #about-text p {
+    line-height: 1.8em; }
   #about-text ul {
     list-style-type: circle; }
     #about-text ul li {
       line-height: 1.8em; }
   #about-text ol li {
     line-height: 1.8em; }
+  #about-text ol a {
+    text-decoration: none;
+    font-weight: 400;
+    color: #4DD0E1;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out; }
+  #about-text ol a:hover {
+    color: #2A2C39;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out; }
 
 #project1, #project2, #project3 {
   width: 100%;
@@ -342,7 +363,7 @@ h2 {
 p {
   font-weight: 400;
   font-size: 1em;
-  line-height: 1.8em; }
+  line-height: 1.3em; }
 
 .banner {
   width: 100%;
@@ -354,7 +375,7 @@ p {
   padding: 50px 0 50px 0;
   text-align: center; }
 
-#description {
+.popoutText {
   color: #36CDA4;
   text-transform: uppercase;
   font-size: 1em;
