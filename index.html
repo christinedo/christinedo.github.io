@@ -12,7 +12,7 @@
     <script type="text/javascript" src="public/js/jquery.min.js"></script>
     <script type="text/javascript" src="public/js/script.js"></script>
     <script>
-    	var num = 400; //number of pixels before fixed attribute
+    	var num = 400; //number of pixels before fixed navbar
 
 		$(window).bind('scroll', function () {
 		    if ($(window).scrollTop() > num) {
@@ -53,7 +53,6 @@
 										<span class="expand">
 											+
 										</span>
-										<!-- <p class="tagline">Test, test, <br/>then test some more.</p> -->
 									</div>
 							</div>
 							<div class="project">
@@ -62,7 +61,6 @@
 										<span class="expand">
 											+
 										</span>
-										<!-- p class="tagline">What's in a design?<br/>That which we call a brand...</p> -->
 									</div>
 							</div>
 							<div class="project">
@@ -71,7 +69,6 @@
 										<span class="expand">
 											+
 										</span>
-										<!-- <p class="tagline">Digging Deep: Usability &amp; Information Architecture</p> -->
 									</div>
 							</div>
 						</div>
@@ -157,20 +154,36 @@
 			<h5>Laying out the initial groundwork</h5>
 				<p>To get a little more perspective, we sat down with Justin for an initial interview about the background of Muir Woods, user demographics, and his vision for the website. After the interview, we sat down to compile and analyze his responses. From there, we abstracted and documented initial design ideas for the website.</p>
 
-				<p>Overall, we found one central theme: Muir Woods is more than just the coffee; it's the people that work, study, and hang out in the space that is Muir Woods. Justin emphasized that it's the comfortable, yet high-energy ambiance that attracts the students studying and hanging out on the couches and chairs. With that in mind, we knew we shouldn't embrace the traditional model of retail-oriented sites since this website was going to gear more towards informational.</p>
+				<p>Overall, we found one central theme: Muir Woods is more than just the coffee; it's the people that work, study, and hang out in the space that is Muir Woods. Justin emphasized that his ideal website would be:</p>
+				<div class="logistics">
+					<blockquote>
+					<ul>
+						<li><strong>Comfortable</strong> - The user shouldn't feel sold to</li>
+						<li><strong>Familiar</strong> - Let the user get to know more about Muir Woods </li>
+						<li><strong>Engaging</strong> - Let the personality of the website engage the user</li>
+					</ul>
+					</blockquote>
+				</div>
+				<p>With that in mind, we knew we shouldn't embrace the traditional model of retail-oriented sites since this website was going to gear more towards informational.</p>
 
-				<p>When we asked Justin to describe his ideal website, he said he wanted the result to be:</p>
-				<ul>
-					<li><strong>Comfortable</strong> - The user shouldn't feel sold to</li>
-					<li><strong>Familiar</strong> - Let the user get to know more about Muir Woods </li>
-					<li><strong>Engaging</strong> - Let the personality of the website engage the user</li>
-				</ul>
-				<a href="public/img/mwch/ClientSurvey.pdf" target="_blank"><button>View Client Survey</button></a>
+				<a href="public/img/mwch/ClientSurvey.pdf" target="_blank"><button>View Client Survey (PDF)</button></a>
 			<h2>The User</h2>
-				<p>As students, we are prospective users ourselves and with that insight, we already had some ideas of what we thought should be included on the website. But every user is different and conducting user interviews gave us a greater perspective about how others would use the website.</p>
+				<p>From our initial interview with the client, we garnered that the user group we should be targeting for the website are UCSD students. As students ourselves, we already had some ideas of what we thought should be included on the website. But every user is different and conducting user interviews gave us a greater perspective about how others would use the website.</p>
 			<h3>User Interviews</h3>
 			<h5>tagline</h5>
-				<p>American Apparel Kickstarter master cleanse tofu, viral normcore McSweeney's post-ironic XOXO Austin. Brooklyn Intelligentsia Pitchfork cliche, Marfa hoodie DIY Thundercats polaroid raw denim meggings. Authentic fap chia, normcore Shoreditch farm-to-table tote bag paleo kogi meggings pickled Bushwick ethical drinking vinegar ugh. Banjo twee meggings biodiesel. Keffiyeh 8-bit +1, occupy shabby chic flannel seitan synth Williamsburg DIY. Before they sold out semiotics swag twee tofu, fanny pack actually typewriter PBR trust fund Godard pug artisan occupy quinoa. Meggings 90's yr, ennui crucifix Austin leggings umami Truffaut pop-up Kickstarter craft beer farm-to-table irony.</p>
+				<p>We interviewed a total of 9 users and broke down our questions based on their prior experience with Muir Woods. Every interviewee answered a set of general interview questions that targeted what they expected from any coffee shop and a set of questions after a similar website walkthrough. For the walkthrough, we chose a well-known, clearly branded, business and retail-oriented coffee company. By going to the other extreme, we thought it would be useful to see what big companies do well and what they didn't. With that knowledge, we could really focus on the advantages of a smaller, community coffee shop like Muir Woods.</p>
+
+				<p>From there, we diverge into two sets of specific interview questions. For interviewees who have never been to Muir Woods, we had them answer interview questions for potential customers. These questions were generalized to any coffee shop, but we asked them more specifically about their behaviors and preferences in regards to their prior experiences in other coffee shops. For interviewees who have been to Muir Woods, we asked them specfically about Muir Woods—their impressions, their experiences, why Muir Woods, etc.</p>
+
+				<p>After consolidating our data, we broke down the main user groups as follows:</p>
+				<blockquote>
+					<ol class="orderedList">
+						<li>Potential UCSD Student Customers (On and Off Campus)</li>
+						<li>Off-Campus UCSD Student Continuing/Past Customers</li>
+						<li>On-Campus UCSD Student Continuing/Past Customers</li>
+					</ol>
+				</blockquote>
+				<p>From </p>
 			<h3>User Personas</h3>
 			<h5>tagline</h5>
 				<p>Cliche leggings squid tote bag YOLO flexitarian. Ethical church-key Wes Anderson listicle fap. Polaroid try-hard McSweeney's DIY PBR&B raw denim banjo. Cray Pitchfork Helvetica, asymmetrical hoodie heirloom tattooed PBR&B Carles lo-fi drinking vinegar retro wolf viral. McSweeney's mixtape gentrify keffiyeh, Godard organic disrupt aesthetic quinoa plaid Echo Park umami pour-over semiotics distillery. Fixie banjo taxidermy bicycle rights. Squid brunch +1 selvage, food truck locavore try-hard irony cornhole umami 90's 3 wolf moon jean shorts.</p>
@@ -182,16 +195,18 @@
 			<h2>Creative Brief</h2>
 				<p>American Apparel Kickstarter master cleanse tofu, viral normcore McSweeney's post-ironic XOXO Austin. Brooklyn Intelligentsia Pitchfork cliche, Marfa hoodie DIY Thundercats polaroid raw denim meggings. Authentic fap chia, normcore Shoreditch farm-to-table tote bag paleo kogi meggings pickled Bushwick ethical drinking vinegar ugh. Banjo twee meggings biodiesel. Keffiyeh 8-bit +1, occupy shabby chic flannel seitan synth Williamsburg DIY. Before they sold out semiotics swag twee tofu, fanny pack actually typewriter PBR trust fund Godard pug artisan occupy quinoa. Meggings 90's yr, ennui crucifix Austin leggings umami Truffaut pop-up Kickstarter craft beer farm-to-table irony.</p>
 			<h2>Opening the Toolbox</h2>
-				<p>The wireframes were created collaboratively while the mockups by yours truly.</p>
+				<p>The wireframes were created collaboratively with Axure, the mockups by yours truly with Sketch.</p>
 			<h3>Wireframes</h3>
-			<h5>Making Axure widgets do what you what it to</h5>
-				<p>Axure enabled us to generate HTML files of our wireframes. It also allowed us to include notes on the functional specifications of interactive components of our website and to showcase some interactivity of the web design.</p>
-				<a href="/mwch-wireframe" target="_blank"><button>View Wireframe</button></a>
+			<h5>Harnessing the power of dynamic panels</h5>
+				<p>Axure enabled us to generate HTML files of our wireframes, allowing us to dynamically showcase some interactivity of the design. Also included in the wireframes are blue notes on the functional specifications of interactive components of our website and as such, they should not be regarded as part of the design.</p>
+				<a href="/mwch-wireframe" target="_blank"><button>View Wireframes</button></a>
 			<h3>Mockups</h3>
-			<h5>In which Sketch sees the light of day</h5>
+			<h5>Insert pretty pictures here</h5>
+				<p>American Apparel Kickstarter master cleanse tofu, viral normcore McSweeney's post-ironic XOXO Austin. Brooklyn Intelligentsia Pitchfork cliche, Marfa hoodie DIY Thundercats polaroid raw denim meggings. Authentic fap chia, normcore Shoreditch farm-to-table tote bag paleo kogi meggings pickled Bushwick ethical drinking vinegar ugh. Banjo twee meggings biodiesel. Keffiyeh 8-bit +1, occupy shabby chic flannel seitan synth Williamsburg DIY. Before they sold out semiotics swag twee tofu, fanny pack actually typewriter PBR trust fund Godard pug artisan occupy quinoa. Meggings 90's yr, ennui crucifix Austin leggings umami Truffaut pop-up Kickstarter craft beer farm-to-table irony.</p>
+			<h2>Final Prototype</h2>
 				<p>American Apparel Kickstarter master cleanse tofu, viral normcore McSweeney's post-ironic XOXO Austin. Brooklyn Intelligentsia Pitchfork cliche, Marfa hoodie DIY Thundercats polaroid raw denim meggings. Authentic fap chia, normcore Shoreditch farm-to-table tote bag paleo kogi meggings pickled Bushwick ethical drinking vinegar ugh. Banjo twee meggings biodiesel. Keffiyeh 8-bit +1, occupy shabby chic flannel seitan synth Williamsburg DIY. Before they sold out semiotics swag twee tofu, fanny pack actually typewriter PBR trust fund Godard pug artisan occupy quinoa. Meggings 90's yr, ennui crucifix Austin leggings umami Truffaut pop-up Kickstarter craft beer farm-to-table irony.</p>
 			<h2>The Problem With<br/>Ten Weeks</h2>
-				<p>The problem, of course, is that it's still not enough time. In reflection, I would’ve liked to devote more time developing the brand further by using more graphics, photos, and animations/interactive effects to improve the overall flow of the website. There had to be a lot of compromise between our goals for the final prototype and what's reasonable within our timeframe with our abilities, but moving forward, I would like to explore, develop, and refine the asthetics (perhaps revisiting a chalkboard theme) and on the development side, optimize the website to be responsive.</p>
+				<p>The problem, of course, is that it's still not enough time. In reflection, I would’ve liked to devote more time developing the brand further by using more graphics, photos, and animations/interactive effects to improve the overall flow of the website. There had to be a lot of compromise between our goals for the final prototype and what's reasonable within our timeframe with our abilities, but moving forward, I would like to explore, develop, and refine the asthetics (perhaps revisiting chalkboard influences) and on the development side, optimize the website to be responsive.</p>
 
 			<div class="projectButtons">
 				<a href="http://noslp-mwch.herokuapp.com/" target="_blank"><button class="website-link">View Website</button></a>
@@ -236,7 +251,7 @@
 				<p>After generating the use cases, we assessed the importance, frequency, interaction cost, and page distance of each use case. Importance was generalized to each corresponding persona and measured on an subjective scale of "low", "medium", and "high". Frequency was measured on the same scale as Importance, but it took into account both the specific user and the persona. Interaction cost, rated on a scale of 1 to 5, gave an arbitrary measure of how difficult (e.g. number of clicks, visual search time, etc.) it was to complete the use case. Finally, page distance took into account the level of the website where the appropriate information was found.</p>
 				<p>Working with use cases gave us a basic but essential foundation for the types of users that could be found on the University of Leicester website and their goals.</p>
 			<h3>Competitive Analysis</h3>
-			<h5>Normcore Version</h5>
+			<h5>College Edition</h5>
 				<p>The competitive analysis was a key starting point for our discussion of how exactly we were going to approach redesigning the information architecture. We examined five other university websites to get a better sense of the conventions and practices already used and in place. More specifically, we looked at the main navigation, user type navigation, and other main labels included on the homepage.</p>
 				<p>Our main navigation was distilled into four main categories:</p>
 				<blockquote>
@@ -264,8 +279,7 @@
 				<p>Rather than just the University logo, we aimed to make the entirety of the main navigation reliable, recognizable, and straightforward. We decided to include the four categories of About, Admissions, Academics, and Research after our competitive analysis revealed the commonality of the these four categories across multiple websites. They are also broad categories that capture a wide range of different subcategories. The same can be said about our decisions for the user type links. We found that these labels are found across many university websites and touch upon the most common users of a university website.</p> 
 				<p>Beyond the navigation, we also decided to include a News and Events section on the homepage as they are important in showcasing achievements and accomplishments. Again, we also found that these were common categories featured on the homepages of most university websites, including Leicester’s website. In our design, we separated the news from the events as we thought that they were distinct enough to warrant confusion if they are grouped. For the footer, we opted to keep it simple and moved links that we believed had more significance to the main navigation banner. Overall, we tried for a more modern look with more emphasis on navigation.</p>
 			<h2>Thoughts for<br/>a second chance</h2>
-				<p>Given more time, I would've like to revisit the layout of the website. With the two week time frame and the central focus on the information architecture and the navigation, there are many gaps in the consistency and design of the asthetics. Of note, the second level pages look and feel a bit disconnected from the homepage, which boasts more photos and a more cohensive look from top to bottom. The navigational elements of the second level pages could also use more improvement. Looking back, I think we might've made the categories too few in number as there is a lot of information that we did not account for.</p>
-				<p>My thoughts for a second chance: Revisit the information architecture of the second level pages and reassess the design and layout of the website.</p>
+				<p>Given more time, I would've like to revisit the layout of the website. With the two week time frame and the central focus on the information architecture and the navigation, there are many gaps in the consistency and design of the asthetics. Of note, the second level pages look and feel a bit disconnected from the homepage, which boasts more photos and a more cohensive look from top to bottom. The navigational elements of the second level pages could also use more improvement. Looking back, I think we might've made the categories too few in number as there is a lot of information that we did not account for. My thoughts for a second chance: Revisit the information architecture of the second level pages and reassess the design and layout of the website.</p>
 
 				<div class="projectButtons">
 					<a href="/leicester-redesign" target="_blank"><button class="website-link">View Website</button></a>
