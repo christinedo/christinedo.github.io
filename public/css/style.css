@@ -203,10 +203,10 @@ p.tagline {
     width: 50px;
     height: auto; }
 
-.website-link {
-  margin-right: 20px;
-  text-align: left; }
-
+/*.website-link {
+	margin-right: 20px;
+	text-align: left;
+}*/
 a > button {
   color: #fff;
   border-color: #fff; }
@@ -247,7 +247,6 @@ a > button {
   .project-text h5 {
     font-weight: 300;
     font-size: 1.5em;
-    float: left;
     letter-spacing: 2px;
     margin-top: 0; }
   .project-text p {
@@ -255,7 +254,7 @@ a > button {
     font-family: "Merriweather", georgia, serif;
     font-weight: 400;
     font-size: 1.5em;
-    line-height: 2.5em;
+    line-height: 2.3em;
     text-align: left;
     clear: both; }
     .project-text p a {
@@ -274,6 +273,9 @@ a > button {
       -o-transition: all 0.2s ease-in-out;
       -ms-transition: all 0.2s ease-in-out;
       transition: all 0.2s ease-in-out; }
+    .project-text p span {
+      font-weight: 900;
+      font-style: italic; }
   .project-text button {
     background-color: transparent;
     border: 1px solid #fff;
@@ -306,7 +308,7 @@ a > button {
   font-family: "Merriweather", georgia, serif;
   font-weight: 400;
   font-size: 1.5em;
-  line-height: 2.8em;
+  line-height: 2em;
   text-align: left;
   clear: both; }
 .logistics li {
@@ -341,9 +343,51 @@ a > button {
   font-family: "Merriweather", georgia, serif;
   font-weight: 400;
   font-size: 1.5em;
-  line-height: 2.8em;
+  line-height: 2em;
   text-align: left;
   clear: both; }
+
+/*PERSONAS*/
+.persona {
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px; }
+  .persona img {
+    width: 200px;
+    height: auto; }
+
+.persona-text {
+  overflow: hidden; }
+  .persona-text ul {
+    padding-left: 0;
+    color: #fff;
+    font-family: "Source Sans Pro", helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+    line-height: 1.7em;
+    text-align: left;
+    clear: both;
+    margin-top: 0; }
+  .persona-text li {
+    font-style: normal; }
+    .persona-text li strong {
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      font-family: "Source Sans Pro", helvetica, sans-serif;
+      font-style: normal; }
+
+#persona1, #persona3 {
+  float: right;
+  clear: left; }
+
+#persona2 {
+  float: left;
+  clear: right; }
+
+.mockups img {
+  width: 90%;
+  height: auto;
+  display: inline-block; }
 
 #resume {
   clear: both; }
