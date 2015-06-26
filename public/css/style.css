@@ -472,4 +472,11 @@ p a:hover {
   outline-color: transparent;
   outline-style: none; }
 
+/******* NEW TEMP DESIGN *******/
+#name {
+  font-family: "brandon-grotesque";
+  font-size: 40px;
+  font-weight: 300;
+  text-align: center; }
+
 /*# sourceMappingURL=style.css.map */
