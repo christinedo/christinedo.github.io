@@ -48,7 +48,7 @@ h1 {
 h2 {
 	font-weight: 400;
 	font-size: 2em;
-	color: $green;
+	color: $red;
 	text-transform: lowercase;
 }
 
@@ -71,7 +71,7 @@ p {
 }
 
 .popoutText {
-	color: $green;
+	color: $red;
 	text-transform: uppercase;
 	font-size: 1em;
 	font-weight: 600;
@@ -85,7 +85,7 @@ p {
 	}
 
 	a:hover {
-		color: $red;
+		color: $green;
 		@include transition(all 0.2s ease-in-out);
 	}
 }

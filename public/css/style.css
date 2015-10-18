@@ -21,7 +21,7 @@ nav {
     -ms-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out; }
   nav a:hover {
-    color: #EF5350;
+    color: #36CDA4;
     border-bottom: 3px solid transparent;
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
@@ -51,14 +51,14 @@ footer {
   background-color: #2A2C39; }
 
 #footer-text {
-  color: #36CDA4;
+  color: #EF5350;
   text-align: center;
   font-weight: 600;
   font-size: 0.875em;
   padding-top: 30px; }
 
 footer p a:hover {
-  color: #fff; }
+  color: #36CDA4; }
 
 #portfolio {
   padding: 2.5em 0 0 0; }
@@ -429,7 +429,7 @@ h1 {
 h2 {
   font-weight: 400;
   font-size: 2em;
-  color: #36CDA4;
+  color: #EF5350;
   text-transform: lowercase; }
 
 p {
@@ -448,7 +448,7 @@ p {
   text-align: center; }
 
 .popoutText {
-  color: #36CDA4;
+  color: #EF5350;
   text-transform: uppercase;
   font-size: 1em;
   font-weight: 600; }
@@ -463,7 +463,7 @@ p a {
   -ms-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out; }
 p a:hover {
-  color: #EF5350;
+  color: #36CDA4;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;

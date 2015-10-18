@@ -24,7 +24,7 @@ nav {
 	}
 
 	a:hover {
-		color: $red;
+		color: $green;
 		border-bottom: 3px solid transparent;
 		@include transition(all 0.2s ease-in-out);
 	}
