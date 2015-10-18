@@ -48,7 +48,7 @@ h1 {
 h2 {
 	font-weight: 400;
 	font-size: 2em;
-	color: $red;
+	color: $green;
 	text-transform: lowercase;
 }
 
@@ -85,7 +85,7 @@ p {
 	}
 
 	a:hover {
-		color: $blue-black;
+		color: $red;
 		@include transition(all 0.2s ease-in-out);
 	}
 }
