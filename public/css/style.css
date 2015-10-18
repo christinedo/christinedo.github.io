@@ -5,7 +5,7 @@ nav {
   font-weight: 600; }
   nav ul {
     margin: 0;
-    padding: 15px 0 0 0;
+    padding: 30px 0 30px 0;
     list-style: none; }
   nav li {
     display: inline-block;
@@ -21,7 +21,7 @@ nav {
     -ms-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out; }
   nav a:hover {
-    color: #fff;
+    color: #36CDA4;
     border-bottom: 3px solid transparent;
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
@@ -74,7 +74,8 @@ footer p a:hover {
   width: 310px;
   height: 207px;
   margin: 0 0.5em 0 0;
-  position: relative; }
+  position: relative;
+  padding: 30px 0 0 0; }
 
 .overlay {
   background: rgba(44, 42, 57, 0.6);
