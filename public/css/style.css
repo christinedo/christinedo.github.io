@@ -2,27 +2,27 @@ nav {
   text-align: center;
   text-transform: uppercase;
   font-size: .9em;
-  font-weight: 600; }
+  font-weight: 400; }
   nav ul {
     margin: 0;
+    margin-right: 70px;
     padding: 30px 0 30px 0;
-    list-style: none; }
+    list-style: none;
+    float: right; }
   nav li {
     display: inline-block;
     padding: 0 20px; }
   nav a {
-    color: #4DD0E1;
+    color: #889fae;
     display: block;
     text-decoration: none;
-    border-bottom: 3px solid #fff;
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
     -ms-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out; }
   nav a:hover {
-    color: #36CDA4;
-    border-bottom: 3px solid transparent;
+    color: #FF4081;
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
@@ -30,16 +30,27 @@ nav {
     transition: all 0.2s ease-in-out; }
 
 .main-nav {
-  position: relative;
-  background: #2A2C39;
-  height: 70px;
-  z-index: 150;
-  margin-bottom: -70px;
-  width: 100%; }
-
-.fixed {
   position: fixed;
-  top: 0; }
+  height: 70px;
+  z-index: 9999;
+  margin-bottom: -70px;
+  width: 100%;
+  top: 0;
+  left: 0; }
+
+.transition {
+  background: rgba(255, 255, 255, 0.8);
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
+
+#logo {
+  color: #889fae;
+  float: left;
+  padding: 30px 0px;
+  margin-left: 90px; }
 
 footer {
   clear: both;
@@ -48,17 +59,19 @@ footer {
   margin-bottom: 0;
   width: 100%;
   height: 150px;
-  background-color: #2A2C39; }
+  background-color: #3d3d3d; }
 
 #footer-text {
-  color: #EF5350;
+  color: #4DD0E1;
   text-align: center;
   font-weight: 600;
   font-size: 0.875em;
   padding-top: 30px; }
 
+footer p a {
+  color: #fff; }
 footer p a:hover {
-  color: #36CDA4; }
+  color: #FF4081; }
 
 #portfolio {
   padding: 2.5em 0 0 0; }
@@ -66,23 +79,49 @@ footer p a:hover {
 #portfolio-content {
   text-align: center; }
   #portfolio-content img {
-    width: 310px;
-    height: auto; }
+    width: 460px;
+    height: 300px; }
 
 .project {
   display: inline-block;
-  width: 310px;
-  height: 207px;
-  margin: 0 0.5em 0 0;
+  width: 460px;
+  height: 300px;
+  margin: 0 0.5em 0.5em 0;
   position: relative;
-  padding: 0 0 0 0; }
+  padding: 0;
+  vertical-align: top; }
+
+#portfolioSquare {
+  display: inline-block;
+  width: 460px;
+  height: 300px;
+  margin: 0 0.5em 0.5em 0;
+  position: relative;
+  padding: 0;
+  background-color: #0091EA; }
+
+#portfolioTitle {
+  font-size: 4em;
+  font-weight: 300;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 10px; }
+
+#arrows {
+  font-size: 5.5em;
+  font-weight: 300;
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  right: 10px; }
 
 .overlay {
   background: rgba(44, 42, 57, 0.6);
   text-align: center;
   opacity: 0;
-  width: 100%;
-  height: 100%;
+  width: 460px;
+  height: 300px;
   position: absolute;
   top: 0;
   right: 0;
@@ -112,7 +151,7 @@ span {
 
 span.expand {
   display: inline-block;
-  margin: 75px 0 0 0;
+  margin: 120px 0 0 0;
   z-index: 100;
   width: 60px;
   height: 60px;
@@ -136,7 +175,7 @@ p.tagline {
   font-weight: 600; }
 
 #about {
-  padding: 2.5em 0 0 0; }
+  padding: 2.5em 0 4.5em 0; }
 
 #me {
   float: left;
@@ -399,11 +438,11 @@ a > button {
 
 html, body {
   font-size: 100%;
-  background-color: #fffffc; }
+  background-color: #F5F5F5; }
 
 body {
   font-family: "brandon-grotesque", helvetica, sans-serif;
-  background-color: #fffffc;
+  background-color: #F5F5F5;
   color: #3d3d3d;
   margin: 0; }
 
@@ -417,14 +456,14 @@ body {
   margin: auto;
   text-align: left;
   position: relative;
-  padding: 4em 0.5em 0 0.5em; }
+  padding: 1em 0.5em 0 0.5em; }
 
 h1 {
-  font-weight: 300;
-  font-size: 3em;
+  font-weight: 600;
+  font-size: 4.5em;
   text-transform: lowercase;
   margin: 0.2em 0 0.2em 0;
-  color: #fff; }
+  color: #3d3d3d; }
 
 h2 {
   font-weight: 400;
@@ -439,31 +478,32 @@ p {
 
 .banner {
   width: 100%;
-  max-height: 500px;
-  background-color: #2A2C39;
-  display: inline-block; }
+  height: 300px;
+  display: inline-block;
+  margin-top: 70px; }
 
 .banner-text {
-  padding: 50px 0 50px 0;
+  padding: 80px 0 50px 0;
   text-align: center; }
 
 .popoutText {
-  color: #EF5350;
-  text-transform: uppercase;
-  font-size: 1em;
-  font-weight: 600; }
+  color: #FF4081;
+  font-family: "Merriweather", georgia, serif;
+  font-style: italic;
+  font-size: 2em;
+  font-weight: 400; }
 
 p a {
   text-decoration: none;
   font-weight: 400;
-  color: #4DD0E1;
+  color: #889fae;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   -ms-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out; }
 p a:hover {
-  color: #36CDA4;
+  color: #FF4081;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
@@ -473,14 +513,5 @@ p a:hover {
 :focus {
   outline-color: transparent;
   outline-style: none; }
-
-/******* NEW TEMP DESIGN *******/
-#name {
-  font-family: "brandon-grotesque";
-  font-size: 2.5em;
-  font-weight: 300;
-  text-align: center;
-  text-transform: lowercase;
-  margin-top: 80px; }
 
 /*# sourceMappingURL=style.css.map */
