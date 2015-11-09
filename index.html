@@ -12,13 +12,13 @@
     <script type="text/javascript" src="public/js/jquery.min.js"></script>
     <script type="text/javascript" src="public/js/script.js"></script>
     <script>
-    	var num = 195; //number of pixels before fixed navbar
+    	var num = 0; //number of pixels before transition of navbar
 
 		$(window).bind('scroll', function () {
 		    if ($(window).scrollTop() > num) {
-		        $('.main-nav').addClass('fixed');
+		        $('.main-nav').addClass('transition');
 		    } else {
-		        $('.main-nav').removeClass('fixed');
+		        $('.main-nav').removeClass('transition');
 		    }
 		});
 	</script>
@@ -29,24 +29,33 @@
 
 <body>
 	<div class="main-container">
+		<nav class="main-nav">
+			<div id="logo">cvd</div>
+			<ul>
+				<li><a href="#portfolio">Portfolio</a></li>
+				<li><a href="#about">About Me</a></li>
+				<li><a href="documents/Christine_Do_Resume.pdf">Resume</a></li>
+			</ul>
+		</nav>
 		<div class="banner">
 			<div class="banner-text">
 				<!--<a href="#"><img src="public/img/bunny.svg" width="100px" height="auto"></a>-->
 				<h1>Christine Van Do</h1>
-				<span class="popoutText">UX/UI Designer &amp; Lover of Breakfast Foods</span>
+				<span class="popoutText">UX/UI Designer &amp; Breakfast Food Aficionado</span>
 			</div>
-				<nav class="main-nav">
-					<ul>
-						<li><a href="#portfolio">Portfolio</a></li>
-						<li><a href="#about">About</a></li>
-						<li><a href="#resume">Resume</a></li>
-					</ul>
-				</nav>
+
 		</div>
 			<div class="content">
 				<div id="portfolio">
-					<h2>Portfolio</h2>
+					<h2></h2>
 						<div id="portfolio-content">
+							<div id="portfolioSquare">
+								<!-- <img src="public/img/placeholder.png"> -->
+								<div id="portfolioTitle">
+									Portfolio
+								</div>
+								<div id="arrows">➔</div>
+							</div>
 							<div class="project">
 								<img src="public/img/podcats.png">
 									<div class="overlay" id="podcats">
@@ -363,10 +372,10 @@
 						<p>Even when I'm not actively working on a project, I never stop exploring or learning. You can often find my browser window filled with tabs on a range of design and dev topics: From How-To videos/guides on Angular (my current undertaking) to what is essentially all the external links on <a href="http://usepanda.com/app/#/">UsePanda</a>.</p>
 					</div>
 			</div>
-			<div id="resume">
+<!-- 			<div id="resume">
 				<h2>Resume</h2>
 				<p><a href="documents/Christine_Do_Resume.pdf">View the PDF Version</a></p>
-			</div>
+			</div> -->
 		</div>
 	</div>
 		<footer>
