@@ -66,10 +66,12 @@ footer {
   text-align: center;
   font-weight: 600;
   font-size: 0.875em;
-  padding-top: 30px; }
+  padding-top: 30px;
+  letter-spacing: 1px; }
 
 footer p a {
-  color: #fff; }
+  color: #fff;
+  letter-spacing: 1px; }
 footer p a:hover {
   color: #FF4081; }
 
@@ -106,7 +108,8 @@ footer p a:hover {
   color: #fff;
   position: absolute;
   top: 0;
-  left: 10px; }
+  left: 10px;
+  letter-spacing: 3px; }
 
 #arrows {
   font-size: 5.5em;
@@ -262,7 +265,8 @@ a > button {
   margin-right: auto;
   margin-left: auto;
   padding: 2em 0.5em;
-  text-align: center; }
+  text-align: center;
+  letter-spacing: 0px; }
   .project-text h1 {
     font-weight: 900;
     font-size: 7em;
@@ -444,6 +448,7 @@ body {
   font-family: "brandon-grotesque", helvetica, sans-serif;
   background-color: #F5F5F5;
   color: #3d3d3d;
+  letter-spacing: 0.5px;
   margin: 0; }
 
 .main-container {
@@ -468,7 +473,7 @@ h1 {
 h2 {
   font-weight: 400;
   font-size: 2em;
-  color: #EF5350;
+  color: #FF4081;
   text-transform: lowercase; }
 
 p {

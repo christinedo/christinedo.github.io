@@ -59,6 +59,7 @@ a > button {
 	margin-left: auto;
 	padding: 2em 0.5em;
 	text-align: center;
+	letter-spacing: 0px;
 	h1 {
 		@extend %project-headers;
 		font-weight: 900;
