@@ -467,7 +467,7 @@ h2 {
   color: #FF4081;
   text-transform: lowercase; }
 
-p {
+.portfolio-paragraph {
   font-weight: 400;
   font-size: 1em;
   line-height: 1.3em; }
