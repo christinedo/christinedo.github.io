@@ -587,7 +587,8 @@ a:hover {
   display: block;
   width: 60.16%;
   margin-top: 20px;
-  margin-left: 22.65%;
+  margin-right: auto;
+  margin-left: auto;
   max-width: 600px
 }
 
