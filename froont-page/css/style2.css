@@ -75,9 +75,6 @@ footer p a {
 footer p a:hover {
   color: #FF4081; }
 
-#portfolio {
-  padding: 2.5em 0 0 0; }
-
 #portfolio-content {
   text-align: center; }
   #portfolio-content img {
@@ -176,9 +173,6 @@ p.tagline {
   color: #fff;
   font-size: 1.3em;
   font-weight: 600; }
-
-#about {
-  padding: 2.5em 0 4.5em 0; }
 
 #me {
   float: left;
@@ -433,9 +427,6 @@ a > button {
   width: 90%;
   height: auto;
   display: inline-block; }
-
-#resume {
-  clear: both; }
 
 * {
   box-sizing: border-box; }
