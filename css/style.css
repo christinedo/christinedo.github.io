@@ -1228,13 +1228,14 @@ a:hover {
   margin-left: auto;
   background-color: #2196f3;
   position: relative;
-  min-height: 550px
+  min-height: 625px
 }
 
 .fr_svg_2 {
   float: none;
   display: block;
-  width: 807px;
+  width: 917px;
+  margin-top: 0rem;
   margin-right: auto;
   margin-left: auto;
   position: relative;
