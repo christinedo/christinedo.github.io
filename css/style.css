@@ -215,20 +215,6 @@ a:hover {
   color: white
 }
 
-.fr_questions {
-  font-family: europa;
-  font-weight: 600;
-  font-size: 1.7em;
-  line-height: 1.45em;
-  text-align: center;
-  letter-spacing: .3em;
-  color: white
-}
-
-.fr_questions.fr-text p {
-  color: white
-}
-
 .fr_caption_left_grey {
   font-family: europa;
   font-weight: 300;
@@ -762,17 +748,6 @@ a:hover {
   max-width: 960px
 }
 
-.fr_contact_title {
-  float: none;
-  display: block;
-  width: 100%;
-  margin-top: 0;
-  margin-right: 0;
-  margin-bottom: 20px;
-  margin-left: 0;
-  min-height: 1.275em
-}
-
 .fr_portfolio_work {
   float: none;
   display: block;
@@ -1279,6 +1254,16 @@ a:hover {
   position: relative
 }
 
+@media screen and (max-width:1024px) {
+  .fr_svg_2 {
+    float: none;
+    display: block;
+    margin-top: 0rem;
+    margin-right: auto;
+    margin-left: auto
+  }
+}
+
 @media screen and (max-width:768px) {
   .fr_navigation_link_2 {
     text-align: left
@@ -1429,9 +1414,6 @@ a:hover {
   .fr_h1_main_center_black-1 {
     font-size: 1.3em
   }
-  .fr_questions {
-    font-size: 1.3em
-  }
   .fr_h4_white {
     font-size: 1.3em
   }
@@ -1498,17 +1480,18 @@ a:hover {
     min-height: 500px
   }
   .fr_svg_2 {
+    float: none;
+    display: block;
     width: 100%;
-    margin-top: 5.5625rem
+    margin-top: 5.5625rem;
+    margin-right: auto;
+    margin-left: auto
   }
 }
 
 @media screen and (max-width:320px) {
   .fr_navigation_link_2 {
     font-size: .7rem
-  }
-  .fr_questions.fr-text p {
-    color: white
   }
   .fr_paragraph_center_grey {
     font-size: 1.1rem
