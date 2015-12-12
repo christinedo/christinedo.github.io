@@ -96,8 +96,7 @@ $(function () {
             return;
         }
 
-    //    var baseUrl = document.location.href.replace(document.location.hash, '');
-        var baseUrl = "christinevdo.com".replace("christinevdo.com".hash, '');
+        var baseUrl = document.location.href.replace(document.location.hash, '');
         var isSameDocument = href.replace(baseUrl, '').indexOf('#') === 0;
 
         if (!isSameDocument) {
