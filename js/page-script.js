@@ -100,6 +100,7 @@ $(function () {
         var isSameDocument = href.replace(baseUrl, '').indexOf('#') === 0;
 
         if (!isSameDocument) {
+          document.location.href.replace('christinevdo.com', '').indexOf('#') === 0;
             return;
         }
         var hash = this.hash;
