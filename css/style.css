@@ -783,8 +783,8 @@ a:hover {
   padding-right: 20px;
   padding-bottom: 20px;
   padding-left: 20px;
-  color: black;
-  border: 1px solid black;
+  color: #3BA3F8;
+  border: 1px solid #3BA3F8;
   min-height: 4rem;
   max-width: 224px;
   border-radius: 4px;
@@ -1173,7 +1173,7 @@ a:hover {
   margin-right: auto;
   margin-left: auto;
   max-width: 850px;
-  font-size: 1em;
+  font-size: 1.125em;
 }
 
 .fr_about_me_title {
