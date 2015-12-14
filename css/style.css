@@ -156,6 +156,16 @@ a:hover {
   color: black
 }
 
+.fr_h5_black {
+  font-family: europa;
+  font-weight: 600;
+  font-size: 1.5em;
+  line-height: 1.45em;
+  text-align: center;
+  letter-spacing: .3em;
+  color: black
+}
+
 .fr_h1_main_center_black {
   font-family: europa;
   font-weight: 600;
@@ -242,6 +252,16 @@ a:hover {
   text-align: center;
   letter-spacing: .01em;
   color: white
+}
+
+.project_text_paragraph {
+  font-family: europa;
+  font-weight: 300;
+  font-size: 1.3rem;
+  line-height: 1.4;
+  text-align: left;
+  letter-spacing: .01em;
+  color: #000
 }
 
 .fr_h4_white {
@@ -541,6 +561,16 @@ a:hover {
   max-width: 600px
 }
 
+.project_title {
+  float: none;
+  display: block;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 600px;
+  text-transform: uppercase;
+}
+
 .fr_resume {
   float: none;
   display: block;
@@ -736,6 +766,29 @@ a:hover {
   min-height: 4rem;
   max-width: 224px;
   border-radius: 4px
+}
+
+.project_button {
+  float: none;
+  display: block;
+  width: 100%;
+  font-family: europa;
+  font-weight: 400;
+  font-size: 1em;
+  text-align: center;
+  letter-spacing: .05em;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  color: black;
+  border: 1px solid black;
+  min-height: 4rem;
+  max-width: 224px;
+  border-radius: 4px;
+  margin-top: 50px;
 }
 
 .fr_contact_subtext {
@@ -1112,6 +1165,17 @@ a:hover {
   max-width: 600px
 }
 
+.project_text {
+  float: none;
+  display: block;
+  width: 90%;
+  margin-top: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 850px;
+  font-size: 1em;
+}
+
 .fr_about_me_title {
   float: none;
   display: block;
@@ -1204,6 +1268,34 @@ a:hover {
   background-color: #2196f3;
   position: relative;
   min-height: 625px
+}
+
+.project_content {
+  float: none;
+  display: block;
+  top: 70px;
+  width: 100%;
+  margin-top: 0rem;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 100px;
+  padding-bottom: 20px;
+  background-color: #fff;
+  position: relative;
+}
+
+.project_subcontent {
+  float: none;
+  display: block;
+  top: 70px;
+  width: 100%;
+  margin-top: 0rem;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  background-color: #fff;
+  position: relative;
 }
 
 .fr_svg_2 {
@@ -1402,6 +1494,9 @@ a:hover {
   .fr_h4_black {
     font-size: 1.3em
   }
+  .fr_h5_black {
+    font-size: 1.2em
+  }
   .fr_h1_right_black {
     font-size: 1.7em
   }
@@ -1494,6 +1589,9 @@ a:hover {
     font-size: .7rem
   }
   .fr_paragraph_center_grey {
+    font-size: 1.1rem
+  }
+  .project_text_paragraph {
     font-size: 1.1rem
   }
   .fr_mobile_toggle_2 {
