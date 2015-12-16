@@ -70,8 +70,8 @@ blockquote {
 }
 
 a {
-  text-decoration: underline;
-  color: inherit
+  color: #3BA3F8;
+  text-decoration: none;
 }
 
 a:hover {
@@ -162,7 +162,7 @@ a:hover {
   font-size: 1.5em;
   line-height: 1.45em;
   text-align: center;
-  letter-spacing: .3em;
+  letter-spacing: .2em;
   color: black
 }
 
@@ -567,7 +567,7 @@ a:hover {
   width: 90%;
   margin-right: auto;
   margin-left: auto;
-  max-width: 600px;
+/*  max-width: 600px; */
   text-transform: uppercase;
 }
 
@@ -786,7 +786,7 @@ a:hover {
   color: #3BA3F8;
   border: 1px solid #3BA3F8;
   min-height: 4rem;
-  max-width: 224px;
+  max-width: 260px;
   border-radius: 4px;
   margin-top: 50px;
 }
