@@ -1,0 +1,25 @@
+{
+   "active": {"about": true},
+   "about": {
+      "me": "I'm a UX/UI designer based in the Bay Area. In June 2016, I graduated from the University of California, San Diego where I majored in Cognitive Science and specialized in Human-Computer Interaction. I like to solve problems using design and as such, I'm a huge proponent of user-centered design. In addition to design, I also like to dabble in front-end development. My favorite place to read up on current trends in the design industry is the <a href=\"http://usepanda.com/app/\">Use Panda app</a>",
+      "activities": "Beyond the computer screen, I have a passion for traveling, exploring new places, and collecting new experiences. I'm also a hiking enthusiast, barre workout devotee, and health-nut with an often dangerous sweet tooth.",
+      "favorite": "I'd like to share one of my favorite poems by the poet, Nayyirah Waheed from her book, salt.",
+      "poem": [
+         "what can i do",
+         "when the night comes",
+         "and",
+         "i break into stars.",
+         "—osmosis"
+      ]
+   },
+   "design": {
+      "description": "When it comes to design, I like to approach the problem from the user's perspective. Although my specific process can differ based on the type of problem I'm trying to solve, my approach follows this general framework:",
+      "framework": [
+         "Needs to be offset...",
+         "Identify the problem to be solved",
+         "Research",
+         "Step 2",
+         "Etc"
+      ]
+   }
+}

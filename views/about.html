@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+{{> metadata}}
+
+<body class="body-content">
+    {{> dropdown}}
+    <div class="container container-content">
+        {{> navbar}}
+
+        <div class="row">
+            <div class="col-xs-3 col-md-1"></div>
+            <div class="col-xs-3 col-md-2"><img id="photo" class="center-block" src="/img/christine.png" /></div>
+            <div class="col-xs-12 col-md-8">
+                <h3>Hiya, I'm Christine—</h3>
+                <p>{{{about.me}}}.</p>
+                <p>
+                   {{about.activities}}
+                </p>
+                <!-- <p>
+                   {{about.favorite}}
+                </p>
+                <p id="poem">
+                {{#each about.poem}}
+                   {{this}}<br/>
+                {{/each}}
+                </p>
+               <br/> -->
+                <!-- <h4>Design</h4>
+                <p>
+                   {{design.description}}
+                </p>
+                <p>
+                   {{#each design.framework}}
+                     {{@index}}. {{this}}<br/>
+                   {{/each}}
+                </p> -->
+            </div>
+            <!-- <div class="col-md-1"></div> -->
+        </div>
+    </div>
+    {{> scripts}}
+</body>
+{{> footer}}
+</html>
