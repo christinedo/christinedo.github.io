@@ -15,7 +15,7 @@
             "Before diving right in, we first assessed the overall usability of the current website by way of a usability evaluation using <a href=\"http://www.nngroup.com/articles/ten-usability-heuristics/\">Nielsen's 10 Heuristics</a>. In the process of our evaluation, we highlighted several strengths and weaknesses of the user interface that best exemplified the good and bad execution of the principles outlined by Nielsen's 10 Heuristics. This allowed us to narrow our focus to make sure we address the major usability issues apparent around Leicester's website."
         ],
         "link": {
-            "path": "./public/leicester-usability-evaluation",
+            "path": "/leicester-usability-evaluation",
             "asset": "Heuristic Evaluation (HTML)"
         }
     }, {
