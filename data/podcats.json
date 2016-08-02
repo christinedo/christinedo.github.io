@@ -23,12 +23,12 @@
          "img": [{
             "active": true,
             "title": "Storyboard 1",
-            "path": "/img/podcats/storyboard1.png"
+            "path": "./public/img/podcats/storyboard1.png"
          },
          {
             "active": false,
             "title": "Storyboard 2",
-            "path": "/img/podcats/storyboard2.png"
+            "path": "./public/img/podcats/storyboard2.png"
          }]
       }
    },
@@ -42,12 +42,12 @@
          "img": [{
             "active": true,
             "title": "Paper Prototype 1",
-            "path": "/img/podcats/prototype1.png"
+            "path": "./public/img/podcats/prototype1.png"
          },
          {
             "active": false,
             "title": "Paper Prototype 2",
-            "path": "/img/podcats/prototype2.png"
+            "path": "./public/img/podcats/prototype2.png"
          }]
       }
    },
@@ -77,7 +77,7 @@
             "In-person testing validated some design choices, while also pointing out design flaws. While it was easy for users to understand which lecture was live and navigate through the app, certain design choices, like the choice of words for a label were hard to understand.",
             "<h4 class=\"text-light sub-heading\">A/B Testing</h4> Our online A/B test was centered around how users prefer to mark a point of interest at during a lecture. Version A, the original version, allowed users to only leave comments. Version B, the experimental version, let users add tags and/or comments. By observing the number of bookmarks, edits, and deletes The overall result appears to indicate that version B, the version with tags, better guided the user into knowing what the structure of the application is and how it should be used.",
             "The qualitative analysis showed that version A users were using the application as just another form of taking notes. The comments of the version A bookmarks closely resembled text that you would continuously jot down on a notebook; this is not what we were aiming for in the design and use of the application. Version B users, on the other hand, had bookmarks with comments that were more used as titles of the tagged interval. This more so actually represented the \"bookmark\" concept we had envisioned from the get go. Therefore, the qualitative analysis seemed to indicate that version B was better in guiding the user toward the overarching function of our application PodCats.",
-            "A more detailed report of the user testing, can be found by checking out the documentation on the <a href=\"/documents/podcats/testing-protocol.pdf\">in-person testing protocol</a> and the <a href=\"/documents/podcats/ab-testing.pdf\">online A/B test results</a>."
+            "A more detailed report of the user testing, can be found by checking out the documentation on the <a href=\"./public/documents/podcats/testing-protocol.pdf\">in-person testing protocol</a> and the <a href=\"./public/documents/podcats/ab-testing.pdf\">online A/B test results</a>."
          ]
    },
    {
@@ -86,7 +86,7 @@
       "image": [
          {
          "title": "",
-         "path": "/img/podcats/podcats-overview.png"
+         "path": "./public/img/podcats/podcats-overview.png"
       }
    ],
       "link-inactive": [{

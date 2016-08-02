@@ -8,19 +8,19 @@
         "id": "project-one",
         "name": "PodCats",
         "type": "Non-native Web Application",
-        "cover-image": "/img/podcats-project.png",
-        "link": "/podcats"
+        "cover-image": "./public/img/podcats-project.png",
+        "link": "podcats.html"
     }, {
         "id": "project-two",
         "name": "Muir Woods Coffee Shop",
         "type": "Website Redesign",
-        "cover-image": "/img/mwch-project.png",
-        "link": "/muirwoods"
+        "cover-image": "./public/img/mwch-project.png",
+        "link": "muirwoods.html"
     }, {
         "id": "project-three",
         "name": "University of Leicester",
         "type": "Usability & Information Architecture",
-        "cover-image": "/img/leicester-project.png",
-        "link": "/leicester"
+        "cover-image": "./public/img/leicester-project.png",
+        "link": "leicester.html"
     }]
 }

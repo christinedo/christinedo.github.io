@@ -15,7 +15,7 @@
             "Before diving right in, we first assessed the overall usability of the current website by way of a usability evaluation using <a href=\"http://www.nngroup.com/articles/ten-usability-heuristics/\">Nielsen's 10 Heuristics</a>. In the process of our evaluation, we highlighted several strengths and weaknesses of the user interface that best exemplified the good and bad execution of the principles outlined by Nielsen's 10 Heuristics. This allowed us to narrow our focus to make sure we address the major usability issues apparent around Leicester's website."
         ],
         "link": {
-            "path": "/leicester-usability-evaluation",
+            "path": "./public/leicester-usability-evaluation",
             "asset": "Heuristic Evaluation (HTML)"
         }
     }, {
@@ -26,7 +26,7 @@
             "Working with use cases gave us a basic, but essential foundation for the types of users that could be found on the University of Leicester website and their goals."
         ],
         "link": {
-           "path": "/documents/leicester/use-cases.pdf",
+           "path": "./public/documents/leicester/use-cases.pdf",
            "asset": "Use Cases (PDF)"
         }
     }, {
@@ -38,7 +38,7 @@
             "In terms of other links and sections, we decided to preserve the existing \"Maps and Directions\", \"A - Z Index\", and \"Blackboard\" links as those were persist links and portals around the Leicester website. We also included news and events, but as two separate categories as they warranted distinction on the original Leicester website."
         ],
         "link": {
-           "path": "/documents/leicester/competitive-analysis.pdf",
+           "path": "./public/documents/leicester/competitive-analysis.pdf",
            "asset": "Competitive Analysis (PDF)"
         }
     }, {
@@ -49,7 +49,7 @@
             "Beyond the navigation, we also decided to include a News and Events section on the homepage as they are important in showcasing achievements and accomplishments. Again, we also found that these were common categories featured on the homepages of most university websites, including Leicester’s website. In our design, we separated the news from the events as we thought that they were distinct enough to warrant confusion if they are grouped. For the footer, we opted to keep it simple and moved links that we believed had more significance to the main navigation banner. Overall, we tried for a more modern look with more emphasis on navigation."
         ],
         "image": {
-           "img": "/img/leicester/leicester-overview.png"
+           "img": "./public/img/leicester/leicester-overview.png"
         }
      }, {
         "header": "Hardest Decisions",

@@ -19,7 +19,7 @@
         ],
         "link": {
              "asset": "Client Survey (PDF)",
-             "path": "/documents/mwch/ClientSurvey.pdf"
+             "path": "./public/documents/mwch/ClientSurvey.pdf"
         }
     },
     {
@@ -32,7 +32,7 @@
          ],
          "link": {
                "asset": "User Interviews (PDF)",
-               "path": "/documents/mwch/UserInterview.pdf"
+               "path": "./public/documents/mwch/UserInterview.pdf"
          }
     },
    {
@@ -45,7 +45,7 @@
       ],
       "link": {
             "asset": "Creative Brief (PDF)",
-            "path": "/documents/mwch/CreativeBrief.pdf"
+            "path": "./public/documents/mwch/CreativeBrief.pdf"
       }
    },
    {
@@ -56,7 +56,7 @@
       "image": [
          {
          "title": "",
-         "path": "/img/mwch/whiteboarding.png"
+         "path": "./public/img/mwch/whiteboarding.png"
       }
    ]
 },
@@ -82,17 +82,17 @@
          "img": [{
             "active": true,
             "title": "Iteration 1",
-            "path": "/img/mwch/mockup1.png"
+            "path": "./public/img/mwch/mockup1.png"
          },
          {
             "active": false,
             "title": "Iteration 2",
-            "path": "/img/mwch/mockup2.png"
+            "path": "./public/img/mwch/mockup2.png"
          },
          {
             "active": false,
             "title": "Iteration 3",
-            "path": "/img/mwch/mockup3.png"
+            "path": "./public/img/mwch/mockup3.png"
          }]
       }
    },
