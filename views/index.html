@@ -6,8 +6,11 @@
     {{> dropdown}}
     <div class="container container-content">
         {{> navbar}}
-        <h2 id="tagline">{{tagline}}<br/>
-        <span class="text-regular">{{subtext}}</span></h2>
+
+        {{#each greeting}}
+          <h2 id="{{id}}" class="greeting">{{line}}</h2>
+        {{/each}}
+        <!-- <span class="text-regular">{{subtext}}</span></h2> -->
         <div id="project-row" class="row">
             {{#each projects}}
             <div class="col-md-4">

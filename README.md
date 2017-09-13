@@ -1,2 +1,1 @@
-#My UX/UI Portfolio
-:bowtie:
+My personal website.

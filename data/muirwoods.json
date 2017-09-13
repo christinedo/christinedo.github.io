@@ -1,11 +1,11 @@
 {
     "active": {
-        "portfolio": true
+        "portfolio": true,
+        "notHome": true
     },
     "name": "Muir Woods Coffee House",
     "role": [
-        "UX/UI Designer",
-        "Front-end developer"
+        "UX/UI Designer + Frontend Developer"
     ],
     "type": "Website Redesign",
     "description": "Located on the UCSD campus, Muir Woods Coffee House (Muir Woods, for short) is a popular destination among students, faculty, staff, and visitors-alike to get coffee, study, and hangout. Over the course of 10 weeks, my team members and I worked on branding, designing, and implementing a website for Muir Woods. We worked closely with Justin, the Director, through out the duration of the project.",

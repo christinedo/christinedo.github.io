@@ -1,26 +1,32 @@
 {
     "active": {
-        "portfolio": true
+        "portfolio": true,
+        "notHome": false
     },
-    "tagline": "Hiya, I'm Christine—",
-    "subtext": "I'm a UX/UI designer based in the Bay Area.",
+    "greeting": [{
+        "id": "greeting-line-1",
+        "line": "Hi, my name is Christine Do!"
+      }, {
+        "id": "greeting-line-2",
+        "line": "I'm a designer in the Bay Area."
+      }],
     "projects": [{
         "id": "project-one",
         "name": "PodCats",
         "type": "Non-native Web Application",
         "cover-image": "./public/img/podcats-project.png",
-        "link": "podcats.html"
+        "link": "/podcats"
     }, {
         "id": "project-two",
         "name": "Muir Woods Coffee Shop",
         "type": "Website Redesign",
         "cover-image": "./public/img/mwch-project.png",
-        "link": "muirwoods.html"
+        "link": "/muirwoods"
     }, {
         "id": "project-three",
         "name": "University of Leicester",
         "type": "Usability & Information Architecture",
         "cover-image": "./public/img/leicester-project.png",
-        "link": "leicester.html"
+        "link": "/leicester"
     }]
 }

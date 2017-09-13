@@ -9,50 +9,76 @@
     {{> dropdown}}
     <div class="container container-content">
         {{> navbar}}
-        <div class="case-study">
-            <div class="case-study-info col-lg-8 col-md-10 col-lg-offset-2 col-md-offset-1">
-                <h3 class="text-center">{{name}}</h3>
-                <div class="row">
-                    <div class="col-lg-6 col-lg-offset-3 col-md-10 col-md-offset-1">
-                        <div class="role text-center">
-                            <h4 class="header-text-black">Role</h4>
-                            <p>
-                                {{role}}
-                            </p>
-                        </div>
-                        <div class="type text-center">
-                            <h4 class="header-text-black">Type</h4> {{#each type}}
-                            <p>
-                                {{this}}
-                            </p>
-                            {{/each}}
-                        </div>
-                    </div>
-                </div>
-                <p>
-                    {{{description}}}
-                </p>
-            </div>
 
-            <div class="case-study-process">
-                {{#each body}}
-                <div class="col-lg-8 col-md-10 col-lg-offset-2 col-md-offset-1">
-                    <h4 class="text-center">{{header}}</h4> {{#each content}}
-                    <p>
-                        {{{this}}}
-                    </p>
-                    {{/each}} {{#if link}}
-                    <div class="text-center">
-                        <a href="{{link.path}}">
-                            <button type="button" name="button" class="btn-custom">View {{link.asset}}</button>
-                        </a>
+        <div class="case-study-info col-lg-8 col-md-10 col-lg-offset-2 col-md-offset-1">
+            <h1 class="text-center"><span class="case-study-name">{{name}}</span></h1>
+            <br/>
+            <div class="row">
+                <div class="text-center">
+                    <div class="role col-sm-6">
+                        <h4>Role</h4>
+                        <p>
+                            {{role}}
+                        </p>
                     </div>
-                    {{/if}}
+                    <div class="type col-sm-6">
+                        <h4>Type</h4>
+                        <p>
+                            {{type}}
+                        </p>
+                    </div>
                 </div>
-                {{#if image}}
-                <img class="project-image" src="{{image.img}}" /> {{/if}} {{/each}}
-                <a href="/" class="portfolio-link">Return to Portfolio</a>
             </div>
+            <p>
+                {{{description}}}
+            </p>
+        </div>
+
+        <div class="case-study-process">
+            {{#each body}}
+            <div class="case-study-section col-lg-8 col-md-10 col-lg-offset-2 col-md-offset-1">
+                <h2 class="case-study-header">{{header}}</h2>
+                {{#each content}}
+                <p>
+                    {{{this}}}
+                </p>
+                {{/each}} {{#if link}}
+                <div class="case-study-link text-center">
+                    <a href="{{link.path}}">
+                        <button type="button" name="button" class="btn-custom">View {{link.asset}}</button>
+                    </a>
+                </div>
+                {{/if}}
+            </div>
+            <div class="case-study-image col-lg-12">
+                {{#each image}}
+                <h4 class="text-center text-light">{{title}}</h4>
+                <img class="project-image" src="{{path}}" /> {{/each}} {{#if image-carousel}}
+                <div id="{{image-carousel.id}}" class="carousel slide" data-ride="carousel" data-interval="false">
+                    <ol class="carousel-indicators">
+                        <li data-target="#{{image-carousel.id}}" data-slide-to="0" class="active"></li>
+                        <li data-target="#{{image-carousel.id}}" data-slide-to="1"></li>
+                        <li data-target="#{{image-carousel.id}}" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        {{#each image-carousel.img}}
+                        <div class="item {{#if active}} active {{/if}}">
+                            <img src="{{path}}" alt="text" class="img-responsive">
+                            <div class="carousel-caption">
+                                <h3>{{title}}</h3>
+                            </div>
+                        </div>
+                        {{/each}}
+                    </div>
+                    <a class="left carousel-control" href="#{{image-carousel.id}}" role="button" data-slide="prev">
+                    </a>
+                    <a class="right carousel-control" href="#{{image-carousel.id}}" role="button" data-slide="next">
+                    </a>
+                </div>
+                {{/if}}
+            </div>
+            {{/each}}
+            <a href="/" class="portfolio-link">Return to Portfolio</a>
         </div>
     </div>
     {{> scripts}}

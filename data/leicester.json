@@ -1,12 +1,12 @@
 {
     "active": {
-        "portfolio": true
+        "portfolio": true,
+        "notHome": true
     },
     "name": "University of Leicester Redesign",
     "role": "UX/UI Designer",
     "type": [
-        "Usability",
-        "Information Architecture"
+        "Usability + Information Architecture"
     ],
     "description": "The goal of this project was to improve the overall usability of the <a href=\"http://web.archive.org/web/20141120230615/http://www.le.ac.uk/\">University of Leicester's</a> website. While this entails all aspects of design, the primary focus for my team members and I was to improve the information architecture and to create an interface that supports the new categorical logic.",
     "body": [{

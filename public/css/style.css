@@ -1,44 +1,31 @@
 body {
-   font-family: "Neuzeit Grotesk", Helvetica, sans-serif;
-   font-size: 1em;
+  font-family: "Lora", Georgia, serif;
    letter-spacing: 0.5px;
-   line-height: 150%;
+   /*line-height: 150%;*/
    /*font-weight: 300;*/
 }
 
 h1, h2, h3, h4, h5, h6 {
-   color: #4DB6AC;
-   font-weight: 700;
+  font-family: "Nunito", Georgia, serif;
+   color: #536DFE;
+   /*font-weight: 700;*/
 }
 
 /************************** navbar */
 .navbar {
    margin-top: 20px;
-   text-transform: uppercase;
    width: 100%;
    height: 100px;
    display: flex;
    align-items: center;
    justify-content: flex-end;
 }
-p a {
-   color: rgba(0, 150, 136, 0.7);
-   -webkit-transition: all 0.5s ease-in-out; /* Safari and Chrome */
-   -moz-transition: all 0.5s ease-in-out; /* Firefox */
-   -o-transition: all 0.5s ease-in-out; /* IE 9 */
-   -ms-transition: all 0.5s ease-in-out; /* Opera */
-   transition: all 0.5s ease-in-out;
-}
-
-p a:hover {
-   color: rgba(0, 150, 136, 0.7);
-   text-decoration: none;
-}
 
 a {
+  font-family: "Nunito", Helvetica, sans-serif;
+  font-weight: 600;
    text-decoration: none;
-   /*color: rgba(0, 150, 136, 1);*/
-   color: #bbb;
+   color: rgba(83, 109, 254, 0.6);
    display: inline;
    -webkit-transition: all 0.5s ease-in-out; /* Safari and Chrome */
    -moz-transition: all 0.5s ease-in-out; /* Firefox */
@@ -48,7 +35,7 @@ a {
 }
 
 a:hover {
-   color: rgba(0, 150, 136, 0.6);
+   color: rgba(83, 109, 254, 0.7);
 }
 
 #nav-links a {
@@ -56,18 +43,12 @@ a:hover {
 }
 
 .current {
-   color: rgba(0, 150, 136, 0.6);
-   padding-bottom: 5px;
-   border-bottom: 4px solid rgba(0, 150, 136, 0.7);
+  background-color: rgba(84, 216, 203, 0.15);
+  box-shadow: 5px 0 0 rgba(84, 216, 203, 0.15), -5px 0 0 rgba(84, 216, 203, 0.15);
 }
 
-#logo {
+#home-link {
     margin-right: auto;
-}
-
-#logo img {
-   width: auto;
-   height: 50px;
 }
 
 /************************** footer */
@@ -75,10 +56,19 @@ footer {
    color: #fff;
    width: 100%;
    height: 50px;
-   background-color: #B2DFDB;
+   background-color: #536DFE;
    text-align: center;
+   font-family: "Nunito", Helvetica, sans-serif;
    line-height: 50px; /* matches height of footer */
-   margin-top: 20px;
+   margin-top: 100px;
+}
+
+footer a {
+  color: #fff;
+}
+
+footer a:hover {
+  color: #fff;
 }
 
 /************************** sticky footer */
@@ -93,8 +83,63 @@ footer {
 }
 
 /************************** body */
-#tagline {
+p {
+  font-family: "Lora", Georgia, sans-serif;
+  font-size: 1.2em;
+  line-height: 1.7;
+}
+
+p a {
+  font-family: "Lora", Georgia, sans-serif;
+   /*color: rgba(83, 109, 254, 0.6);*/
+   -webkit-transition: all 0.5s ease-in-out; /* Safari and Chrome */
+   -moz-transition: all 0.5s ease-in-out; /* Firefox */
+   -o-transition: all 0.5s ease-in-out; /* IE 9 */
+   -ms-transition: all 0.5s ease-in-out; /* Opera */
+   transition: all 0.5s ease-in-out;
+}
+
+/*p a:link {
+  background-color: rgba(84, 216, 203, 0.1);
+  box-shadow: 3px 0 0 rgba(84, 216, 203, 0.1), -2px 0 0 rgba(84, 216, 203, 0.1);
+  margin:0 2px;
+}*/
+
+p a:hover {
+   color: rgba(83, 109, 254, 0.7);
+   text-decoration: none;
+}
+
+span.case-study-name {
+  border-bottom: 10px solid rgba(84, 216, 203, 0.15);
+}
+
+div.case-study-info h1 {
+  padding-bottom: 10px; /* should be same value as border-bottom for h1 (above) */
+}
+
+h2#greeting-line-1 {
+  font-size: 3em;
+  font-weight: 500;
+}
+
+h2#greeting-line-2 {
+  font-size: 2em;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+
+h2.greeting {
    text-align: center;
+   margin-top: 0px;
+}
+
+h2.case-study-header {
+  margin-bottom: 10px;
+}
+
+ul {
+  font-size: 1.2em;
 }
 
 .text-regular {
@@ -103,10 +148,6 @@ footer {
 
 .text-light {
    font-weight: 300;
-}
-
-.sub-heading {
-    text-align: center;
 }
 
 #project-row {
@@ -228,6 +269,7 @@ footer {
    -o-transition: all 0.5s ease-in-out; /* IE 9 */
    -ms-transition: all 0.5s ease-in-out; /* Opera */
    transition: all 0.5s ease-in-out;
+   font-family: "Lora", Georgia, serif;
   }
 
 .text-white {
@@ -244,21 +286,16 @@ footer {
    height: auto;
 }
 
+#about-greeting {
+  margin-top: 0;
+}
 /*************************** projects */
 .text-center {
    text-align: center;
 }
 
-.header-text-black {
-   color: #333;
-}
-
-.role {
-   float: left;
-}
-
-.type {
-   float: right;
+.role h4, .type h4{
+  color: rgba(84, 216, 203, 1)
 }
 
 .project-image {
@@ -294,25 +331,27 @@ table {
 /************************** buttons */
 .btn-custom {
    font-size: 1em;
-   background-color: transparent;
    padding: 10px 20px;
-   color: rgba(0, 150, 136, 0.7);
-   border: 1px solid rgba(0, 150, 136, 0.7);
-   border-radius: 5px;
+   background-size: 200% auto;
+   background-image: linear-gradient(to right, rgba(83, 109, 254, 0.4) 0%, rgba(84, 216, 203, 0.4) 51%, rgba(83, 109, 254, 0.4) 100%);
+   background-color: #fff;
+   border-color: rgba(84, 216, 203, 0.7);
+   color: #fff;
+   box-shadow: 0 0 20px #eee;
+   border: 1px solid transparent;
+   border-radius: 3px;
    margin-top: 10px;
    margin-bottom: 10px;
    letter-spacing: 0.5px;
-   -webkit-transition: all 0.3s ease-in-out; /* Safari and Chrome */
-   -moz-transition: all 0.3s ease-in-out; /* Firefox */
-   -o-transition: all 0.3s ease-in-out; /* IE 9 */
-   -ms-transition: all 0.3s ease-in-out; /* Opera */
-   transition: all 0.3s ease-in-out;
+   -webkit-transition: all 0.4s ease-in-out; /* Safari and Chrome */
+   -moz-transition: all 0.4s ease-in-out; /* Firefox */
+   -o-transition: all 0.4s ease-in-out; /* IE 9 */
+   -ms-transition: all 0.4s ease-in-out; /* Opera */
+   transition: all 0.4s ease-in-out;
 }
 
 .btn-custom:hover {
-   background-color: rgba(0, 150, 136, 0.7);
-   border-color: rgba(0, 150, 136, 0.7);
-   color: #fff;
+  background-position: right center;
 }
 
 /************************** carousel */
@@ -351,7 +390,7 @@ table {
     position: absolute;
     height: 4px;
     width: 100%;
-    background: #4DB6AC;
+    background: #536DFE;
     border-radius: 4px;
     opacity: 1;
     left: 0;
@@ -456,7 +495,7 @@ table {
     padding: 20px 23px;
     text-decoration: none;
     display: block;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     font-size: 25px;
     text-align: center;
 }
@@ -466,5 +505,16 @@ table {
 }
 
 .dropdown-current {
-   color: rgba(0, 150, 136, 0.6);
+   color: rgb(83, 109, 254);
+}
+
+/* Ensure elements load hidden before ScrollReveal runs */
+.sr .fooReveal {
+  visibility: hidden;
+}
+
+@media all and (max-width: 599px) and (min-width: 320px) {
+    ul, ol, p {
+        font-size: 1em;
+    }
 }
