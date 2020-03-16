@@ -1,21 +1,20 @@
 {
-  "name": "portfolio",
+  "name": "portfolio-2020",
   "version": "1.0.0",
-  "description": "Christine's design portfolio",
-  "main": "server.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
   },
-  "author": "Christine Do",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.15.2",
-    "express": "^4.14.0",
-    "express-handlebars": "^3.0.0"
-  },
-  "devDependencies": {
-    "gulp-compile-handlebars": "^0.6.1",
-    "gulp-rename": "^1.2.2"
+    "next": "^9.2.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-markdown": "^4.3.1"
   }
 }
