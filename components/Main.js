@@ -3,8 +3,7 @@ import SocialLinks from './SocialLinks';
 const Main = () => (
   <section className='greeting-container content-container'>
     <h1 className='greeting'>
-      Hi there. 👋 I'm Christine, a frontend engineer currently based in San
-      Francisco. 🌁
+      Hi there. 👋 I'm Christine, a frontend engineer based in San Francisco. 🌁
     </h1>
     <SocialLinks />
     <style jsx>{`
@@ -16,10 +15,9 @@ const Main = () => (
       }
 
       .greeting {
-        font-size: calc(32px + 1.25vw);
+        font-size: calc(38px + 1.25vw);
         font-weight: 500;
-        width: 75%;
-        // color: #edf6ff;
+        width: 80%;
       }
     `}</style>
   </section>

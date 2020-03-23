@@ -2,16 +2,10 @@ import Link from 'next/link';
 
 const Header = () => (
   <nav className='content-container'>
-    <Link href='/'>
-      <a className='logo'>C/D</a>
-    </Link>
+    <a id='logo'>C/D</a>
     <div className='navigation'>
-      <Link href='#projects'>
-        <a>Projects</a>
-      </Link>
-      <Link href='#about'>
-        <a>About</a>
-      </Link>
+      <a id='projects'>Projects</a>
+      <a id='about'>About</a>
     </div>
 
     <style jsx>{`

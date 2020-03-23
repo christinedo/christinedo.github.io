@@ -64,7 +64,7 @@ const PostLink = ({ post }) => (
 const Projects = () => (
   <section className='projects-container' id='projects'>
     <div className='content-container'>
-      <h2 className='title'>Featured Projects</h2>
+      <h2 className='section-title'>Featured Projects</h2>
       <ul className='projects'>
         {getProjects().map(post => (
           <PostLink key={post.id} post={post} />
@@ -78,9 +78,7 @@ const Projects = () => (
           padding-top: 100px;
         }
 
-        .title {
-          font-size: calc(28px + 1.25vw);
-          font-weight: 800;
+        h2 {
           margin-bottom: 40px;
           text-align: center;
         }

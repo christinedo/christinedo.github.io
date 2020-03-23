@@ -17,3 +17,21 @@ window.addEventListener('scroll', () => {
     container.style.backgroundColor = '';
   }
 });
+
+document.getElementById('logo').addEventListener('click', () => {
+  window.scrollTo(0, 0);
+});
+
+document.getElementById('projects').addEventListener('click', () => {
+  const projects = document.querySelector('.projects-container');
+  const projectsPos = projects.offsetTop;
+
+  window.scrollTo(0, projectsPos);
+});
+
+document.getElementById('about').addEventListener('click', () => {
+  const about = document.querySelector('.about-container');
+  const aboutPos = about.offsetTop;
+
+  window.scrollTo(0, aboutPos);
+});

@@ -5,6 +5,8 @@ const Layout = props => (
     <Header />
     {props.children}
     <style jsx global>{`
+      @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
       html,
       body {
         color: #00216f;
@@ -20,7 +22,7 @@ const Layout = props => (
       body,
       h1,
       a {
-        font-family: 'Helvetica Neue', Helvetica, -apple-system,
+        font-family: 'Work Sans', 'Helvetica Neue', Helvetica, -apple-system,
           BlinkMacSystemFont, Arial, sans-serif;
         text-decoration: none;
       }
@@ -38,7 +40,6 @@ const Layout = props => (
       }
 
       .container {
-        // background: #dbeadb; // green
         background: #d6ebfe; // pale blue
         transition: background 0.5s linear;
       }
@@ -46,6 +47,11 @@ const Layout = props => (
       .content-container {
         width: 80%;
         margin: 0 auto;
+      }
+
+      .section-title {
+        font-size: calc(34px + 1.25vw);
+        font-weight: 500;
       }
     `}</style>
   </div>

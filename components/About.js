@@ -5,13 +5,13 @@ const About = () => (
     <div className='content-container'>
       <img src='/sands.jpg' />
       <div className='text-container'>
-        <h2>A Little More</h2>
+        <h2 className='section-title'>A Little More</h2>
         <p>
-          I'm a frontend engineer based in San Francisco, CA. My background is
-          in UX/UI design and as such, I'm a firm believer in user-centered
-          design. As much as I enjoyed solving design problems, I began to
-          realize I felt happier and more satisfied making those solutions come
-          to life.
+          I'm a frontend engineer currently based in San Francisco. My
+          background is in UX/UI design and as such, I'm a firm believer in
+          user-centered design. As much as I enjoyed solving design problems, I
+          began to realize I felt happier and more satisfied making those
+          solutions come to life.
         </p>
         <p>
           In my spare time, you can find me watching tv, obsessing over
@@ -33,13 +33,13 @@ const About = () => (
         }
 
         h2 {
-          font-size: calc(28px + 1.25vw);
-          font-weight: 800;
           margin-bottom: 20px;
         }
 
         p {
           padding: 10px 0;
+          font-family: 'Helvetica Neue', Helvetica, -apple-system,
+            BlinkMacSystemFont, Arial, sans-serif;
         }
 
         .content-container {
