@@ -52,8 +52,17 @@ const About = () => (
           display: flex;
           flex-direction: column;
           width: 60%;
-          // align-content: space-between;
-          // padding-left: 100px;
+        }
+
+        @media all and (max-width: 700px) {
+          img {
+            display: none;
+          }
+
+          .text-container {
+            text-align: center;
+            width: 100%;
+          }
         }
       `}
     </style>

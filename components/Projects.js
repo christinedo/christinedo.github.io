@@ -57,6 +57,16 @@ const PostLink = ({ post }) => (
       p {
         padding-top: 10px;
       }
+
+      @media all and (max-width: 800px) {
+        li:nth-child(1),
+        li:nth-child(2),
+        li:nth-child(3) {
+          width: 100%;
+          margin: 0;
+          padding-bottom: 50px;
+        }
+      }
     `}</style>
   </li>
 );
@@ -87,6 +97,12 @@ const Projects = () => (
           display: flex;
           justify-content: space-between;
           flex-wrap: wrap;
+        }
+
+        @media all and (max-width: 800px) {
+          .projects {
+            flex-direction: column;
+          }
         }
       `}
     </style>
