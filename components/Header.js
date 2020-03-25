@@ -17,6 +17,10 @@ const Header = () => (
         padding-top: 50px;
       }
 
+      a {
+        cursor: pointer;
+      }
+
       .navigation a {
         margin-left: 45px;
       }
