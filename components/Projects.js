@@ -9,7 +9,7 @@ function getProjects() {
     {
       id: 'top-hat',
       title: 'Top Hat Stories',
-      image: '/tophat2.gif',
+      image: '/tophat.gif',
       url: 'https://github.com/christinedo/top-hat-stories'
     },
     {
