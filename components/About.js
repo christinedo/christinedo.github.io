@@ -1,5 +1,3 @@
-import SocialLinks from './SocialLinks';
-
 const About = () => (
   <section className='about-container' id='about'>
     <div className='content-container'>

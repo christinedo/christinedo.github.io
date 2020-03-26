@@ -1,5 +1,3 @@
-import Link from 'next/link';
-
 const Header = () => (
   <nav className='content-container'>
     <a id='logo'>C/D</a>
