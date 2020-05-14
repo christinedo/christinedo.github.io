@@ -3,7 +3,7 @@ import SocialLinks from './SocialLinks';
 const Main = () => (
   <section className='greeting-container content-container'>
     <h1 className='greeting'>
-      Hi there. 👋 I'm Christine, a front-end engineer & designer based in San
+      Hi there. 👋 I'm Christine, a software engineer & designer based in San
       Francisco. 🌁
     </h1>
     <SocialLinks />

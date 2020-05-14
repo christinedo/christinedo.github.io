@@ -5,10 +5,10 @@ const About = () => (
       <div className='text-container'>
         <h2 className='section-title'>A Little More</h2>
         <p>
-          I'm a front-end engineer and designer currently based in San
-          Francisco. My background is in UX/UI design and as such, I'm a firm
-          believer in user-centered design. I enjoy solving design problems and
-          making those solutions come to life.
+          I'm a software engineer (specializing in the frontend) and designer
+          currently based in San Francisco. My background is in UX/UI design and
+          as such, I'm a firm believer in user-centered design. I enjoy solving
+          design problems and making those solutions come to life.
         </p>
         <p>
           In my spare time, you can find me reading, obsessing over skincare, or

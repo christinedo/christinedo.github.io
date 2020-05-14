@@ -8,7 +8,7 @@ export default function Portfolio() {
   return (
     <div>
       <Head>
-        <title>Christine Do, Frontend Engineer</title>
+        <title>Christine Do, Software Engineer</title>
         <link
           rel='apple-touch-icon'
           sizes='180x180'

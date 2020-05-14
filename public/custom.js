@@ -4,17 +4,25 @@ window.addEventListener('scroll', () => {
   const about = document.querySelector('.about-container');
   const projectsTransitionPos = projects.offsetTop * 0.75;
   const aboutTransitionPos = about.offsetTop * 0.75;
+  const projectsLink = document.getElementById('projects');
+  const aboutLink = document.getElementById('about');
 
   if (
     window.scrollY >= projectsTransitionPos &&
     window.scrollY < aboutTransitionPos
   ) {
     container.style.backgroundColor = '#EFF7FE';
+    projectsLink.style.color = '#54D8CB';
+    aboutLink.style.color = '';
   } else if (window.scrollY >= aboutTransitionPos) {
     container.style.backgroundColor = '#F9F7EF';
     about.style.color = '#353535';
+    projectsLink.style.color = '';
+    aboutLink.style.color = '#54D8CB';
   } else {
     container.style.backgroundColor = '';
+    projectsLink.style.color = '';
+    aboutLink.style.color = '';
   }
 });
 
