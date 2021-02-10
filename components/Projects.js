@@ -5,18 +5,21 @@ function getProjects() {
       title: "Personal Website",
       image: "/portfolio.jpg",
       url: "https://github.com/christinedo/christinedo.github.io",
+      repo: "https://github.com/christinedo/christinedo.github.io",
     },
     {
       id: "top-hat",
       title: "Top Hat Stories",
       image: "/top_hat.gif",
-      url: "https://github.com/christinedo/top-hat-stories",
+      url: "https://top-hat-stories.christinedo.vercel.app",
+      repo: "https://github.com/christinedo/top-hat-stories",
     },
     {
       id: "react-weather",
       title: "React Weather App",
       image: "/weather.png",
-      url: "https://github.com/christinedo/react-weather",
+      url: "https://react-weather.christinedo.vercel.app",
+      repo: "https://github.com/christinedo/react-weather",
     },
   ];
 }
@@ -25,8 +28,10 @@ const PostLink = ({ post }) => (
   <li key={post.id} className={post.id}>
     <a href={post.url}>
       <img src={post.image} />
-      <p>{post.title}</p>
     </a>
+    <p>
+      {post.title} [<a href={post.repo}>Github</a>]
+    </p>
 
     <style jsx>{`
       li {
